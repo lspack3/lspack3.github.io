@@ -19,6 +19,8 @@ body {
     font-size: 2em;
   }
   img {
+    height: 120px;
+    width: 120px;
     margin: 20px;
     padding: 1em;
     max-width: 90%;
@@ -43,7 +45,7 @@ body {
     border-bottom: 5px double;
     border-color: gray;
   }
-  
+
   /*footer code */
   footer {
     display: grid;

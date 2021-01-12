@@ -4,7 +4,7 @@ body {
     background-color: #FCFBF7; /* snowy white */
     font-family: Helvetica;
   }
-  
+
   .banner-head {
     display: grid;
     grid-template-columns: 110px auto;
@@ -50,3 +50,4 @@ body {
     font-size: 14px;
     text-align: center;
   }
+  

@@ -7,8 +7,8 @@ body {
 
   /* top banner code */
   .banner-head {
-    display: grid;
-    grid-template-columns: 110px auto;
+  /*  display: grid;
+    grid-template-columns: 110px auto; */
     background-color: #74B3CE; /* azure blue */
     line-height: 1em;
     max-width: 1000px;
@@ -16,16 +16,16 @@ body {
   }
   header {
     text-align: center;
-    font-size: 2em;
+    font-size: 5em;
   }
   img {
     height: 120px;
     width: 120px;
     margin: 20px;
     padding: 1em;
-    max-width: 90%;
-    border: 1px solid #ccc;
-    box-shadow: 5px 5px 8px 8px #999;
+    max-width: 70%;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px #999;
   }
 
 /* main content code */

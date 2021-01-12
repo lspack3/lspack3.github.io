@@ -17,6 +17,7 @@ body {
   header {
     text-align: center;
     font-size: 5em;
+    margin: 0 auto;
   }
   img {
     height: 120px;
@@ -44,6 +45,7 @@ body {
     font-size: 25px;
     border-bottom: 5px double;
     border-color: gray;
+    margin-left: 1em;
   }
 
   /*footer code */

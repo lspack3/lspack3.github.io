@@ -13,6 +13,11 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+header {
+  margin: 1em;
+  text-size: 2em;
+  text-align: center;
+}
 img {
   margin: 20px;
   padding: 1em;
@@ -36,7 +41,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
-  background-color: #CFE8EF;
+  background-color: #74B3CE; /* azure blue */
   height: 55px;
   max-width: 960px;
   margin: 0 auto;

@@ -14,9 +14,12 @@ body {
     margin: 0 auto;
   }
   header {
-    margin: 1em;
-    text-size: 2em;
+    display: grid;
+    grid-template-columns: 110px auto;
+    max-width: 1000px;
+    margin: 0 auto;
     text-align: center;
+    font-size: 1em;
   }
   img {
     margin: 20px;
@@ -50,4 +53,3 @@ body {
     font-size: 14px;
     text-align: center;
   }
-  

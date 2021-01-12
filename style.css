@@ -5,6 +5,7 @@ body {
     font-family: Helvetica;
   }
 
+  /* top banner code */
   .banner-head {
     display: grid;
     grid-template-columns: 110px auto;
@@ -14,12 +15,8 @@ body {
     margin: 0 auto;
   }
   header {
-    display: grid;
-    grid-template-columns: 110px auto;
-    max-width: 1000px;
-    margin: 0 auto;
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
   }
   img {
     margin: 20px;
@@ -27,6 +24,13 @@ body {
     max-width: 90%;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 8px 8px #999;
+  }
+
+/* main content code */
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
   }
   main {
     background-color: #FCFBF7;
@@ -40,6 +44,7 @@ body {
     border-color: gray;
   }
   
+  /*footer code */
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;

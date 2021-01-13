@@ -16,15 +16,14 @@ body {
   header {
     font-size: 40px;
     margin-left: 100px;
-    padding: 10px;
+    padding: 5px;
   }
   img {
     width: auto;
-    height: 200px;
+    height: 250px;
     box-shadow: 5px 5px 8px 8px #999;
     float: right;
     margin-right: 275px;
-    margin-top: 10px;
   }
 
   main {

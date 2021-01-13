@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
   }
   header p {
-    font-size: 1em;
+    font-size: 25px;
     padding: 10px;
     grid-column: 2/4;
     grid-row: 1/2;

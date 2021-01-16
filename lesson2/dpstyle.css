@@ -25,7 +25,22 @@ header {
     font-family: "Hachi-Maru-Pop", cursive;
   }
   
-  
+h2 {
+    font-family: "Hachi-Maru-Pop", cursive;
+    font-size: 30px;
+    border-bottom: 5px double;
+    border-color: violet;
+}
+h3 {
+    font-family: "Fraunces", serif;
+    font-size: 20px;
+    color: blueviolet;
+}
+p {
+    font-family:"Fraunces", serif;
+    font-size: 14px;
+}
+
 
 /*footer code */
   footer {

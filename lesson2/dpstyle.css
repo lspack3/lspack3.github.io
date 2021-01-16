@@ -1,2 +1,22 @@
 /* css style sheet for design-principes.html */
-/* import google fonts here ....*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Hachi+Maru+Pop&display=swap');
+
+body {
+    background-color: #FCFBF7; /* snowy white */
+  }
+
+
+/*footer code */
+  footer {
+    padding: 20px;
+    background-color: #74B3CE; /* azure blue */
+    height: 55px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  footer p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+  }

@@ -5,7 +5,27 @@
 body {
     background-color: #FCFBF7; /* snowy white */
   }
-
+main {
+    background-color: #FCFBF7;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+/* top banner code */
+.banner-head {
+    padding: 20px;
+    background-color: #74B3CE; /* azure blue */
+    height: 55px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+header {
+    font-size: 40px;
+    margin-left: 100px;
+    padding: 5px;
+    font-family: "Hachi-Maru-Pop", cursive;
+  }
+  
+  
 
 /*footer code */
   footer {

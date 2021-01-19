@@ -29,17 +29,26 @@ header {
     margin-bottom: 20px;
   }
 
-.p1 {
+#p1 {
   grid-column: 1/2;
   padding: 5px;
+  border: 3px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.p2 {
+#p2 {
   grid-column: 2/3;
   padding: 5px;
+  border: 3px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.p3 {
+#p3 {
   grid-column: 3/4;
   padding: 5px;
+  border: 3px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
   
 h2 {
@@ -47,23 +56,26 @@ h2 {
     font-size: 25px;
     border-bottom: 5px double;
     border-color: pink;
-    margin-top: 30px;
+    margin-top: 20px;
+    text-align: center;
 }
 h3 {
     font-family: "Fraunces", serif;
     font-size: 20px;
     color: blueviolet;
     padding: 5px;
+    text-align: center;
 }
 img {
   padding: 10px;
-  max-width: 25%;
+  max-width: 93%;
   margin: 0 auto;
 }
 a {
   text-decoration-color: blue;
   color: blueviolet;
   font-size: 15px;
+  margin-left: 10px;
 }
 p {
     font-family:"Fraunces", serif;

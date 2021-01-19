@@ -54,9 +54,10 @@ header {
 h2 {
     font-family: "Hachi-Maru-Pop", cursive;
     font-size: 25px;
-    border-bottom: 5px double;
-    border-color: pink;
-    margin-top: 20px;
+    /* border-bottom: 5px double;*/
+    background-color: pink;
+    padding: 15px;
+    margin-top: 2px;
     text-align: center;
 }
 h3 {

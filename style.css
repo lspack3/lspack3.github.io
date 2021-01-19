@@ -16,9 +16,9 @@ body {
   }
   header {
     font-size: 40px;
-    margin-left: 100px;
     padding: 5px;
     font-family: 'Lobster', cursive;
+    text-align: center;
   }
   img {
     width: auto;

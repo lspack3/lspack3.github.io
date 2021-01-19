@@ -72,7 +72,7 @@ img {
   margin: 0 auto;
 }
 a {
-  text-decoration-color: blue;
+  text-decoration: none;
   color: blueviolet;
   font-size: 15px;
   margin-left: 10px;

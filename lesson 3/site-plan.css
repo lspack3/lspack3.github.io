@@ -5,10 +5,11 @@ body {
   background-color: #F9F9F1; /* floral white */
 }
 header {
-  padding: 1em;
+  padding-top: 1em;
   text-align: center;
   color: #083D77; /* indigo dye*/
   background-color: #F2CB40; /* maize crayola */
+  font-family: "Gloria Hallelujah";
 }
 nav {
   background-color: #083D77;
@@ -28,20 +29,49 @@ nav a:link, nav a:visited {
   color: #75E2FA;
 }
 nav a:hover {
-  color:  #75E2FA;;
+  color:  #75E2FA;
   background-color: #F9F9F1;
+}
+li {
+  flex-basis: 25%;
 }
 
 
 main {
-  display: flex;
   background-color: #F9F9F1;
   max-width: 1000px;
   margin: 0 auto;
+  font-family: "Hind Guntur", Helvetica;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3 {
+  font-family: "Gloria Hallelujah";
+  color: #083D77;
+}
+p {
+  padding: 8px;
 }
 
 
+
+
+
+
 /* table class colors table code */
+.primary {
+  background-color: #75E2FA;
+}
+.secondary {
+  background-color: #F2CB40;
+}
+.accent1 {
+  background-color: #F9F9F1;
+}
+.accent2{
+  background-color: #083D77;
+}
 .colors {
     width: 100%;
     min-width: 350px;

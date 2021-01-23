@@ -1,7 +1,44 @@
 /* stylesheet for weather site plan */
 
 /* decision between Flex or Grid */
+body {
+  background-color: #F9F9F1; /* floral white */
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: #083D77; /* indigo dye*/
+  background-color: #F2CB40; /* maize crayola */
+}
+nav {
+  background-color: #083D77;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding:1em;
+  min-width: 70px;
+}
+nav a:link, nav a:visited {
+  color: #75E2FA;
+}
+nav a:hover {
+  color:  #75E2FA;;
+  background-color: #F9F9F1;
+}
 
+
+main {
+  display: flex;
+  background-color: #F9F9F1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 
 /* table class colors table code */

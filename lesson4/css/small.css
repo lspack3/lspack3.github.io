@@ -4,14 +4,24 @@ body {
 #logo {
     height: 150px;
     width: 150px;
-    margin: .5em 1em;
+    margin: 0 auto;
+    float: left;
+    padding: 5px;
 }
 header {
     padding-top: 1em;
-    text-align: center;
     color: #083D77; /* indigo dye*/
     background-color: #F2CB40; /* maize crayola */
     font-family: "Gloria Hallelujah";
+}
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+}
+header h3 {
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -75,13 +85,13 @@ nav {
   }
   article {
     font-family: "Hind Guntur";
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     padding: 10px;
     margin: 0 auto;
   }
 
-  
+
 /* footer code */
 footer {
     display: grid;

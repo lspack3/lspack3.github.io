@@ -9,6 +9,7 @@ body {
     margin-top: -2em;
     margin-right: -2em;
     float: left;
+    position: relative;
 } 
 header {
     padding-top: 1em;

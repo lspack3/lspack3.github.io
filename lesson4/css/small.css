@@ -1,0 +1,44 @@
+body {
+    background-color: #F9F9F1; /* floral white */
+  }
+header {
+    padding-top: 1em;
+    text-align: center;
+    color: #083D77; /* indigo dye*/
+    background-color: #F2CB40; /* maize crayola */
+    font-family: "Gloria Hallelujah";
+  }
+#logo {
+    max-width: 90%;
+    height: 150px;
+    width: 150px;
+    margin: .5em 1em;
+}
+
+/*navigation code */
+nav {
+    background-color: #083D77;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav > ul {
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    padding:1em;
+    min-width: 70px;
+  }
+  nav a:link
+  , nav a:visited {
+    color: #75E2FA;
+  }
+  nav a:hover {
+    color:  #75E2FA;
+    background-color: #F9F9F1;
+  }
+  li {
+    flex-basis: 25%;
+  }
+  

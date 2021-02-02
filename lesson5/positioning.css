@@ -5,4 +5,11 @@
     padding: 10px;
     border: 12px solid black;
     box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+#image {
+
 }

@@ -1,13 +1,15 @@
+
 body {
     background-color: #F9F9F1; /* floral white */
   }
 #logo {
     height: 150px;
     width: 150px;
-    margin: 0 auto;
+    margin: -1em;
+    margin-top: -2em;
+    margin-right: -2em;
     float: left;
-    padding: 5px;
-}
+} 
 header {
     padding-top: 1em;
     color: #083D77; /* indigo dye*/
@@ -25,7 +27,7 @@ header h3 {
 }
 
 
-/*navigation code 
+/*navigation code */
 nav {
     background-color: #083D77;
     line-height: 3em;
@@ -53,7 +55,7 @@ nav {
   li {
     flex-basis: 25%;
   }
-*/
+
 
 /* main code */
   .home-grid {
@@ -141,3 +143,43 @@ footer #bottomTag {
     margin-left: -1.45em;
     margin-right: -1.45em;
   }
+
+
+/* menu.css code */
+  nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #083D77;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+#navigation li:first-child {
+    display: block;
+}
+#navigation li {
+    display: none;
+}
+#navigation a:link
+, #navigation a:visited
+, #navigation a:hover
+, #navigation a:active
+, #navigation a:focus {
+    display: block;
+    padding: 0.75em;
+    text-align: left;
+    color: #F9F9F1;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navigation a:hover {
+    color:  #75E2FA;
+    background-color: #F9F9F1;
+}
+#navigation.responsive li {
+    display: block;
+}

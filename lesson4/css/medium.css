@@ -9,39 +9,35 @@ main {
         display: inline !important;
     }
     header li:first-child {
-        display: none;
+        display: none !important;
     }
     header nav {
         background-color: #083D77;
         padding: 1px;
-        margin: .65em 0;
     }
     header nav a {
         display: inline;
         border-top: none;
     }
-    nav a:hover {
-        letter-spacing: 3pt !important;
+    #banner {
+        max-width: 100%;
+        margin: 0 auto;
     }
-/* end of media query */ 
-} 
-
-@media only screen and (min-width: 30em) {
-    main .fiveDay {
-        width: 70px;
-        height: 70px;
+    #logo {
+        margin-left: 0;
+        margin-right: -6em;
     }
 }
 
 @media only screen and (min-width: 55em) {
-    main article {
+    .home-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 
-/*navigation code */
+/*navigation code 
 nav {
     background-color: #083D77;
     line-height: 3em;
@@ -65,9 +61,10 @@ nav {
   nav a:hover {
     color:  #75E2FA;
     background-color: #F9F9F1;
+    letter-spacing: 3pt !important;
   }
   li {
     flex-basis: 25%;
-  }  
+  }  */
 
-      
+/* end of media query */ 

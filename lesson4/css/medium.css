@@ -41,6 +41,33 @@ main {
 }
 
 
-    
+/*navigation code */
+nav {
+    background-color: #083D77;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav > ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));    
+    margin: 2em;
+  }
+  nav a {
+    padding: 1em;
+    min-width: 70px;
+  }
+  nav a:link
+  , nav a:visited {
+    color: #75E2FA;
+  }
+  nav a:hover {
+    color:  #75E2FA;
+    background-color: #F9F9F1;
+  }
+  li {
+    flex-basis: 25%;
+  }  
 
       

@@ -1,19 +1,19 @@
 body {
     background-color: #F9F9F1; /* floral white */
   }
+#logo {
+    height: 150px;
+    width: 150px;
+    margin: .5em 1em;
+}
 header {
     padding-top: 1em;
     text-align: center;
     color: #083D77; /* indigo dye*/
     background-color: #F2CB40; /* maize crayola */
     font-family: "Gloria Hallelujah";
-  }
-#logo {
-    max-width: 90%;
-    height: 150px;
-    width: 150px;
-    margin: .5em 1em;
 }
+
 
 /*navigation code */
 nav {
@@ -24,10 +24,12 @@ nav {
   }
   nav > ul {
     list-style-type: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));    
+    margin: 2em;
   }
   nav a {
-    padding:1em;
+    padding: 1em;
     min-width: 70px;
   }
   nav a:link
@@ -41,4 +43,78 @@ nav {
   li {
     flex-basis: 25%;
   }
-  
+
+
+/* main code */
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 1em;
+}
+  #banner {
+      margin: -2.5em auto;
+      max-width: 100%;
+  }
+  .summary {
+      padding: 10px;
+      margin: 1em auto;
+      font-family: "Gloria Hallelujah";
+      font-size: 20px;
+      text-align: left;
+  }
+  .fiveDay {
+    padding: 10px;
+    margin: 1em auto;
+    font-family: "Gloria Hallelujah";
+    font-size: 20px;
+    text-align: center;
+    border-style: outset;
+    border-width: .5em;
+    background-color: #75E2FA;
+    grid-column: 1/4;
+  }
+  article {
+    font-family: "Hind Guntur";
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+/* footer code */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color:#083D77; /* indigo dye*/
+    height: auto;
+    max-width: 960px;
+    margin: 1em auto;
+    font-family: "Hind Guntur";
+  }
+footer a {
+    text-decoration: none;
+    padding: 2px;
+  }
+.contactUs {
+    font-size: 20px;
+    color: #F9F9F1;
+}
+.social {
+    text-align: left;
+    margin: 0;
+  }
+  footer #map {
+    height: 250px;
+    width: 250px;
+    padding: 2px;
+    border-style: solid;
+    border-color: #F9F9F1;
+  }
+footer #bottomTag {
+    background-color: #F2CB40;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }

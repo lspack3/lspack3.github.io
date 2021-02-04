@@ -38,6 +38,11 @@ header h3 {
     text-align: center;
     margin: 0 auto;
 }
+#banner {
+  margin: -2em auto;
+  max-width: 100%;
+  height: auto;
+}
 
 
 
@@ -77,11 +82,7 @@ nav {
     grid-template-columns: 1fr, 1fr, 1fr;
     gap: 1em;
 }
-  #banner {
-      margin: -2em auto;
-      max-width: 100%;
-      height: auto;
-  }
+
 
   .summary {
       padding: 5px;

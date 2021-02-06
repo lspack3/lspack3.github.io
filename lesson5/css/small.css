@@ -83,11 +83,6 @@ nav {
 
 
 /* main code */
-  .home-grid {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    gap: 1em;
-}
   .summary {
       padding: 5px;
       margin: .5em auto;

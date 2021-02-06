@@ -14,6 +14,9 @@ main {
     header nav {
         background-color: #083D77;
         padding: 1px;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     header nav a {
         display: inline;
@@ -26,13 +29,6 @@ main {
     #logo {
         margin-left: 0;
         margin-right: -6em;
-    }
-}
-
-@media only screen and (min-width: 55em) {
-    .home-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 }
 

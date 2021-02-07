@@ -47,7 +47,7 @@ main {
       padding: 5px;
     }
 
-
+/* five day forcast code */
     article {
       margin-left: 1.5em;
     }
@@ -59,7 +59,17 @@ main {
       margin-left: 1em;
     }
     .fiveDay {
-        text-align: center;
+      display: flex;
+      justify-content: space-around;
+    }
+    .fiveDay {
+      padding: 10px;
+      margin: 1em auto;
+      height: 100px;
+      width: 95%;
+      border-style: outset;
+      border-width: .5em;
+      background-color: #75E2FA;
     }
 
     /* footer code */

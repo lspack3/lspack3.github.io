@@ -108,12 +108,24 @@ nav {
   .fiveDay {
     display: none;
   }
+
+/* article code */
+  article h4 {
+    font-family: "Gloria Hallelujah";
+    text-align: left;
+    font-size: 20px;
+    margin-left: 1em;
+  }
   article {
     font-family: "Hind Guntur";
-    font-size: 18px;
+    font-size: 15px;
     text-align: left;
-    padding: 10px;
+    padding: 15px;
     margin: 0 auto;
+  }
+  article img {
+    padding: 5px;
+    margin: auto 1em;
   }
 
 
@@ -206,4 +218,9 @@ footer #bottomTag {
 }
 #navigation.responsive li {
     display: block;
+}
+
+
+.satBanner {
+  display: none; 
 }

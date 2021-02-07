@@ -3,11 +3,7 @@ main {
   margin: auto;
 }
 
-
 @media only screen and (min-width: 65em) {
-    header h1 h3{
-      margin-bottom: 2em;
-    }
     header li {
         display: inline !important;
     }
@@ -16,20 +12,62 @@ main {
     }
     header nav {
         background-color: #083D77;
-        padding: 1px;
-        margin: 1.5em 0;
+        margin-top: 2em;
         max-width: 100%;
+        margin-bottom: -1em;
     }
     header nav a {
         display: inline;
         border-top: none;
     }
+
+
     #banner {
-        width: 1500px;
-        height: auto;
+      width: 1500px;
+      height: auto;
+      margin-top: 3em;
+    }
+    .summary img {
+      display: flex;
+    }
+    .summary h2{
+      margin-left: 1em;
+    }
+
+
+    article {
+      margin-left: 1.5em;
+    }
+    article img {
+      position: relative;
+      margin: 0 auto;
+    }
+    #fiveDayheadline {
+      margin-left: 1em;
     }
     .fiveDay {
         text-align: center;
+    }
+
+    /* footer code */
+    footer #map {
+      height: auto;
+      width: 90%;
+      padding: 2px;
+      border-style: solid;
+      border-color: #F9F9F1;
+      grid-column: 2/3;
+      grid-row: 1/-1;
+      margin-right: 5em;
+    }
+    .social {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: -4em;
+      max-width: 90%;
+    }
+    .contactUs {
+      margin-top: 3em;
     }
     footer {
         width: 100%;
@@ -49,6 +87,10 @@ main {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: .4em;
       }
+    #navigation li .active {
+      background-color: #08438f;
+      text-decoration: underline;
+    }
       nav a {
         padding: 1em;
         min-width: 70px;
@@ -60,7 +102,6 @@ main {
       nav a:hover {
         color:  #75E2FA;
         background-color: #F9F9F1;
-        letter-spacing: 3pt !important;
       }
       li {
         flex-basis: 25%;

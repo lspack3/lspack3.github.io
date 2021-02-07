@@ -21,17 +21,30 @@ main {
         border-top: none;
     }
 
-
+  /* hero img and summary code */
+    .topGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
     #banner {
       width: 1500px;
       height: auto;
       margin-top: 3em;
+      grid-column: 1/-1;
+      grid-row: 1/-1;
     }
-    .summary img {
-      display: flex;
+    .topGrid .summary {
+      grid-column: 1/2;
+      grid-row: 1/-1;
+      background-color: #f5f5c2;
+      padding: 10px;
+      margin: 11% 1em;
+      margin-bottom: 1.5em;
     }
-    .summary h2{
-      margin-left: 1em;
+    .summary h2, p{
+      text-align: left;
+      padding: 5px;
     }
 
 

@@ -52,8 +52,8 @@ main {
       margin-left: 1.5em;
     }
     article img {
-      position: relative;
-      margin: 0 auto;
+      margin: 10px;
+      float: right;
     }
     #fiveDayheadline {
       margin-left: 1em;

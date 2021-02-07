@@ -82,10 +82,12 @@ main {
 
   /* article code */
   article {
-
+    margin: auto;
   }
   article img {
-
+    margin: 10px;
+    position: relative;
+    display: flex;
   }
   
 

@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <script src="js/menu.js"></script>
     <script src="js/saturday.js"></script>
+    <script src="js/windchill.js"></script>
 </head>
 
 <body>
@@ -25,8 +26,8 @@
     <nav>
         <ul id="navigation">
           <li><a href="#" class="ham">&#9776;</a></li>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">Preston</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
           <li><a href="#">Storm Center</a></li>
@@ -41,10 +42,10 @@
         <div class="summary">
         <h2>Weather Summary</h2>
           <p>Currently: Rainy</p>
-          <p>Temperature: 54*F</p>
-          <span>Wind Chill: 51*F</span>
+          <p>Temperature: <span id="temp">50</span> *F</p>
+          <p>Wind Chill: <span id="chill"></span></p>
           <p>Humidity: 95%</p>
-          <p>Wind Speed: 12 mph</p>
+          <p>Wind Speed: <span id="windMph">12</span> mph</p>
         </div>
       </div>
 

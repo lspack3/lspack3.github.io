@@ -39,12 +39,18 @@ main {
       grid-row: 1/-1;
       background-color:#fff7b4c2;
       padding: 10px;
-      margin: 11% 1em;
+      margin: 11% 3em;
       margin-bottom: 1.5em;
     }
-    .summary h2, p{
+    .summary h2 {
+      text-align: center;
+      padding: 5px;
+      margin-top: -.2em;
+    }
+    .summary p{
       text-align: left;
       padding: 5px;
+      margin-left: 2em;
     }
 
 /* five day forcast code */

@@ -53,16 +53,22 @@ main {
     grid-row: 1/-1;
     background-color: #fff7b4c2;
     padding: 5px;
-    margin: 13% 1em;
-    margin-bottom: 1.5em;
-  }
-  .summary h2, p{
-    text-align: left;
-    padding: 2px;
+    margin: 12% 2em;
+    margin-bottom: 1em;
   }
   .summary h2 {
+    margin-bottom: -.5em;
     margin-top: -.2em;
     font-size: 24px;
+    text-align: center;
+    padding: 5px;
+  }
+  .summary p {
+    text-align: left;
+    padding: 2px;
+    margin-left: 1em;
+    padding: 7px;
+    font-size: 15px;
   }
 
   /* five day forcast code*/

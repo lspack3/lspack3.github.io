@@ -87,13 +87,20 @@ nav {
   .summary {
       padding: 5px;
       margin: .5em auto;
-      font-family: "Gloria Hallelujah";
-      font-size: 20px;
-      text-align: left;
   }
-  .summary li {
+  .summary h2 {
+    text-align: center;
+    font-family: "Gloria Hallelujah";
+    font-size: 30px; 
+    margin-left: 1em;
+  }
+  .summary p {
     font-family: "Hind Guntur";
     font-size: 18px;
+    text-align: left;
+    margin: -.5em;
+    margin-left: 1em;
+    padding: 7px;
   }
   .summary img {
     display: none;

@@ -94,7 +94,7 @@ nav {
     font-size: 30px; 
     margin-left: 1em;
   }
-  .summary p {
+  .summary p, span {
     font-family: "Hind Guntur";
     font-size: 18px;
     text-align: left;

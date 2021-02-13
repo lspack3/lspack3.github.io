@@ -47,7 +47,7 @@ main {
       padding: 5px;
       margin-top: -.2em;
     }
-    .summary p{
+    .summary p, span {
       text-align: left;
       padding: 5px;
       margin-left: 2em;

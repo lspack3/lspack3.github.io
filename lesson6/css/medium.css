@@ -63,7 +63,7 @@ main {
     text-align: center;
     padding: 5px;
   }
-  .summary p {
+  .summary p, span {
     text-align: left;
     padding: 2px;
     margin-left: 1em;

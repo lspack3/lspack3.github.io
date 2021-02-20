@@ -60,7 +60,12 @@ nav {
   }
 
   /* main code */
-
+h1 {
+    text-align: left;
+    font-family: "Gloria Hallelujah";
+    font-size: 30px; 
+    margin-left: 1em;
+}
 
 
   /* footer code */

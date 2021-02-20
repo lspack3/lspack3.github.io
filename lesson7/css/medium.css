@@ -1,0 +1,66 @@
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+@media screen and (min-width: 55em) and (max-width: 65em) { 
+    /* beginning of media query */
+        header li {
+            display: inline !important;
+        }
+        header li:first-child {
+            display: none !important;
+        }
+        #navigation li .active {
+          background-color: #08438f;
+          text-decoration: underline;
+        }
+        header nav {
+            background-color: #083D77;
+            max-width: 100%;
+            margin-top: 1.5em;
+            margin-bottom: -1em;
+        }
+        header nav a {
+            display: inline;
+            border-top: none;
+        }
+        #logo {
+            margin-left: 0;
+            margin-right: -6em;
+        }
+        #navigation {
+          list-style-type: none;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+          margin: .4em;
+        }
+
+        /* weather gallery code */
+        
+
+         /* footer code */
+    footer #map {
+        height: auto;
+        width: 90%;
+        padding: 2px;
+        border-style: solid;
+        border-color: #F9F9F1;
+        grid-column: 2/3;
+        grid-row: 1/-1;
+      }
+      .social {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 90%;
+        margin-top: -4em;
+      }
+      .contactUs {
+        margin-top: 1em;
+      }
+  
+  
+  
+  }
+  /* end of media query */ 
+  

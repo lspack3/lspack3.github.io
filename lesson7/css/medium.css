@@ -37,8 +37,12 @@ main {
         }
 
         /* weather gallery code */
-        .galImg img {
-            max-width: 45%;
+        .galImg figure {
+            max-width: 47%;
+            margin: .5em;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
         }
 
          /* footer code */
@@ -60,8 +64,6 @@ main {
       .contactUs {
         margin-top: 1em;
       }
-  
-  
   
   }
   /* end of media query */ 

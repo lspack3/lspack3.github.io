@@ -55,8 +55,16 @@ main {
       }
 
     /* weather gallery main code */  
-    .galImg img {
+    .galImg figure {
         max-width: 30%;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .galImg figcaption {
+        display: contents;
+        font-family: "Hind Guntur";
     }
 
 

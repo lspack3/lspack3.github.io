@@ -55,8 +55,10 @@ main {
       }
 
     /* weather gallery main code */  
+    .galImg img {
+        max-width: 30%;
+    }
 
-    
 
     /* footer code */
       footer #map {

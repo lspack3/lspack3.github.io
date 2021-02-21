@@ -37,7 +37,9 @@ main {
         }
 
         /* weather gallery code */
-        
+        .galImg img {
+            max-width: 45%;
+        }
 
          /* footer code */
     footer #map {

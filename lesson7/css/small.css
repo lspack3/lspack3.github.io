@@ -77,9 +77,7 @@ h1 {
 .galImg figcaption {
     display: none;
 }
-.galImg figure:hover {
-    box-shadow: 0px 0px 8px 8px #999;
-}
+
 .galImg figure {
   margin: .5em;
 }

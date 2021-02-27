@@ -34,31 +34,36 @@
   </header>
 
     <main>
-        <form action="/my-handling-form-page" method="post">
+        <form action="/my-submission-form-page" method="post">
             <ul>
             <li>
-                <label for="name">Full Name:</label>
+                <label for="name">Full Name:
                 <input type="text" id="name" name="user_name">
+                </label>
             </li>
             <li>
-                <label for="mail">E-mail:</label>
+                <label for="mail">E-mail:
                 <input type="email" id="mail" name="user_mail" placeholder="example@example.com">
+                </label>
             </li>
             <li>
-                <label for="phone">Phone Number:</label>
+                <label for="phone">Phone Number:
                 <input type="tel" id="phone" name="user_phone">
+                </label>
             </li>
             <li>
-                <label for="zip">Zip Code:</label>
+                <label for="zip">Zip Code:
                 <input type="number" id="zip" name="user_zip">
+                </label>
             </li>
             <li>
-                <label for="stormDate">Storm Date:</label>
+                <label for="stormDate">Storm Date:
                 <input type="date" id="stormDate" name="storm_date">
+                </label>
             </li>
             <li>
-                <label for="stormType">Storm Type:</label>
-                <input list="stormTypes">
+                <label for="stormTypes">Storm Type:
+                <input list="stormTypes" name="storm_types">
                     <datalist id="stormTypes">
                         <option value="Flash Flood">
                         <option value="Hail">
@@ -66,30 +71,38 @@
                         <option value="Thunderstorm">
                         <option value="Tornado">
                     </datalist>
+                </label>
             </li>
             <li>
-                <label for="severity">Storm Severity:</label>
-                
+                <label for="severity">Storm Severity (from 1-10):
+                <input type="range" id="severity" name="storm_severity" min="1" max="10">
+                </label>
             </li>
             <li>
-                <label for="region">Select Region...</label>
+                <label for="region">Select Region...
                 <select id="region" name="storm_region">
                     <option value="preston">Preston</option>
                     <option value="soda">Soda Springs</option>
                     <option value="fish">Fish Haven</option>
                 </select>
+                </label>
             </li>
             <li>
-                <label for="danger">User In-Danger Level</label>
-                <input type="radio" id="dangerLevel" name="danger_level">
+                <label for="danger">User In-Danger Level:<br>
+                <input type="radio" id="yes" name="danger_level" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="maybe" name="danger_level" value="maybe">
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="no" name="danger_level" value="no">
+                <label for="no">No</label>
+                </label>                
             </li>
             <li>
-            <label for="msg">Additional Comments:</label><br>
-            <textarea id="msg" name="user_message" rows="10" cols="30"></textarea>
+                <label for="msg">Additional Comments:<br>
+                <textarea id="msg" name="user_message" rows="10" cols="30"></textarea>
+                </label>
             </li>
-            <li class="button">
-            <button type="submit">Submit</button>
-            </li>
+                <input type="button" id="submit" name="submit" value="Submit">
             </ul>  
         </form>
     </main>

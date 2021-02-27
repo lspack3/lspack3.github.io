@@ -34,7 +34,64 @@
   </header>
 
     <main>
-      
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+            <li>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail" placeholder="example@example.com">
+            </li>
+            <li>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="user_phone">
+            </li>
+            <li>
+                <label for="zip">Zip Code:</label>
+                <input type="number" id="zip" name="user_zip">
+            </li>
+            <li>
+                <label for="stormDate">Storm Date:</label>
+                <input type="date" id="stormDate" name="storm_date">
+            </li>
+            <li>
+                <label for="stormType">Storm Type:</label>
+                <input list="stormTypes">
+                    <datalist id="stormTypes">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+            </li>
+            <li>
+                <label for="severity">Storm Severity:</label>
+                
+            </li>
+            <li>
+                <label for="region">Select Region...</label>
+                <select id="region" name="storm_region">
+                    <option value="preston">Preston</option>
+                    <option value="soda">Soda Springs</option>
+                    <option value="fish">Fish Haven</option>
+                </select>
+            </li>
+            <li>
+                <label for="danger">User In-Danger Level</label>
+                <input type="radio" id="dangerLevel" name="danger_level">
+            </li>
+            <li>
+            <label for="msg">Additional Comments:</label><br>
+            <textarea id="msg" name="user_message" rows="10" cols="30"></textarea>
+            </li>
+            <li class="button">
+            <button type="submit">Submit</button>
+            </li>
+            </ul>  
+        </form>
     </main>
 
 

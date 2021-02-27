@@ -60,6 +60,12 @@ nav {
   }
 
   /* form main code */
+#thanksMsg {
+  font-family: "Hind Guntur";
+  font-size: 2em;
+  margin: 3em;
+}
+
 
 
   /* footer code */

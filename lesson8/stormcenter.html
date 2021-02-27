@@ -100,7 +100,12 @@
                 <textarea id="msg" name="user_message" rows="10" cols="30"></textarea>
                 </label>
             </li>
-                <input type="button" id="submit" name="submit" value="Submit">
+                <input type="button" id="submit" name="submit_button" onclick="newPage()" value="Submit">
+                    <script>
+                        function newPage() {
+                            window.location.href="/lesson8/thanks.html";
+                        }
+                    </script>
             </ul>  
         </form>
     </main>

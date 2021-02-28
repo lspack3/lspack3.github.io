@@ -82,20 +82,21 @@
                 <label for="region">Select Region...
                 <select id="region" name="storm_region">
                     <option value="preston">Preston</option>
-                    <option value="soda">Soda Springs</option>
-                    <option value="fish">Fish Haven</option>
+                    <option value="soda_springs">Soda Springs</option>
+                    <option value="fish_haven">Fish Haven</option>
                 </select>
                 </label>
             </li>
-            <li class="radioB">
-                <label for="danger">User In-Danger Level:<br>
+            <li>
+                <fieldset>
+                    <legend for="danger">User In-Danger:</legend> 
                 <input type="radio" id="yes" name="danger_level" value="yes">
                 <label for="yes">Yes</label>
                 <input type="radio" id="maybe" name="danger_level" value="maybe">
                 <label for="maybe">Maybe</label>
                 <input type="radio" id="no" name="danger_level" value="no">
-                <label for="no">No</label>
-                </label>                
+                <label for="no">No</label> 
+                </fieldset>              
             </li>
             <li>
                 <label for="msg">Additional Comments:<br>

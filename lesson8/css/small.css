@@ -86,12 +86,19 @@ label {
 li {
   margin: 10px;
 }
-input, textarea {
-  font: .75em sans-serif;
+input {
+  font: 1em sans-serif;
   /* Uniform text field size */
-  width: 175px;
   box-sizing: border-box;
   border: 1px solid #999;
+  width: 200px;
+}
+textarea {
+  width: 80%;
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #999;
+
 }
 input:focus, textarea:focus {
   /* Additional highlight for focused elements */
@@ -101,14 +108,17 @@ textarea {
   /* Align multiline text fields with their labels */
   vertical-align: top;
 }
-li .button {
+button {
   padding: 5px;
-  border: none;
-  box-sizing: 100px;
-  margin: 0 auto;
+  width: 10em;
+  margin: 5px;
 }
-.radioB input {
-    margin: -70px;
+fieldset {
+  max-width: 220px;
+}
+fieldset input {
+  max-width: none;
+  margin: -3em;
 }
 
 

@@ -67,26 +67,26 @@ nav {
 }
 
 form {
-  padding: 5px;
+  padding: 15px;
   margin: 2em;
   border: 2px solid #CCC;
   border-radius: 1em;
+  display: inline-block;
 }
 ul {
   list-style: none;
 }
-form li + li {
-  margin-top: 1em;
-}
 label {
-  display: inline-block;
   font-family: 'Hind Guntur';
-  text-align: right;
+  vertical-align: top;
+}
+li {
+  margin: 10px;
 }
 input, textarea {
-  font: 1em sans-serif;
+  font: .75em sans-serif;
   /* Uniform text field size */
-  width: 200px;
+  width: 175px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -103,6 +103,9 @@ li .button {
   border: none;
   box-sizing: 100px;
   margin: 0 auto;
+}
+.radioB input {
+    margin: -70px;
 }
 
 

@@ -32,7 +32,7 @@
   </header>
 
     <main>
-        <form action="/my-submission-form-page" method="post">
+        <form action="/lesson8/thanks.html" method="get">
             <ul>
             <li>
                 <label for="name">Full Name:
@@ -85,7 +85,7 @@
                 </select>
                 </label>
             </li>
-            <li>
+            <li class="radioB">
                 <label for="danger">User In-Danger Level:<br>
                 <input type="radio" id="yes" name="danger_level" value="yes">
                 <label for="yes">Yes</label>
@@ -101,12 +101,7 @@
                 </label>
             </li>
             <li class=button>
-                <button type="submit" onclick="newPage()">Submit</button>
-                    <script>
-                        function newPage() {
-                            window.location.href="/lesson8/thanks.html";
-                        }
-                    </script>
+                <button type="submit">Submit</button>
             </li>  
             </ul>  
         </form>

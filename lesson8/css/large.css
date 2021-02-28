@@ -56,11 +56,7 @@ main {
 
     /* form main code */  
     form {
-      padding: 20px 50px;
-      margin: 3em;
       margin-left: 20em;
-      align-items: center;
-      position: relative;
     }
     li {
      margin: 15px;

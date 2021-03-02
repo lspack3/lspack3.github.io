@@ -36,33 +36,10 @@ main {
           margin: .4em;
         }
 
-   /* form main code */
-   form {
-     padding: 20px 50px;
-     margin: 3em;
-     margin-left: 9.5em;
-   }
-   li {
-    margin: 15px;
-  }
-   input {
-    max-width: 250px;
-   }
-   textarea {
-     width: 90%;
-     font: 1em sans-serif;
-   }
-   button {
-     width: 15em;
-   }
-   fieldset {
-      max-width: 250px;
-   }
-   fieldset input {
-     margin: -2.5em;
-   }
+   /* main code */
+   
 
-
+   
 
          /* footer code */
     footer #map {

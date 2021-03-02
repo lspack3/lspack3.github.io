@@ -59,68 +59,8 @@ nav {
     flex-basis: 25%;
   }
 
-  /* form main code */
-#thanksMsg {
-  font-family: "Hind Guntur";
-  font-size: 2em;
-  margin: 3em;
-}
+  /* main code */
 
-form {
-  padding: 50px;
-  margin: 2em;
-  border: 2px solid #CCC;
-  border-radius: 1em;
-  max-width: fit-content;
-  display: inline-block;
-}
-ul {
-  list-style: none;
-}
-h3 {
-  font-family: "Hind Guntur";
-}
-label {
-  font-family: 'Hind Guntur';
-  vertical-align: right;
-}
-li {
-  margin: 10px;
-}
-input {
-  font: 1em sans-serif;
-  /* Uniform text field size */
-  box-sizing: border-box;
-  border: 1px solid #999;
-  width: 200px;
-}
-textarea {
-  width: 80%;
-  font: 1em sans-serif;
-  box-sizing: border-box;
-  border: 1px solid #999;
-
-}
-input:focus, textarea:focus {
-  /* Additional highlight for focused elements */
-  border-color: #999;
-}
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-}
-button {
-  padding: 5px;
-  width: 10em;
-  margin: 5px;
-}
-fieldset {
-  max-width: 220px;
-}
-fieldset input {
-  max-width: none;
-  margin: -3em;
-}
 
 
 

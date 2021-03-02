@@ -1,0 +1,38 @@
+body {
+    background: #7d7d80 url("../images/trident.png");
+}
+
+table {
+   font-family: "Lato", Helvetica; 
+   color: white;
+   padding: 10px;
+   margin-left: 1em;
+   margin-top: 1em;
+   border-collapse: collapse;
+   width: 90%;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+thead > tr {
+    background-color: #95d60099;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #89abbc99;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #004d7199;
+}
+
+tfoot > tr > td:nth-child(even) {
+    background-color: #95d60099;
+}
+
+tfoot > tr > td:nth-child(odd) {
+    font-size: 1.2rem;
+    background-color: #004d7199;
+}

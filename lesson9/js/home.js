@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     .then(function (jsonObject) {
         const townInfo = jsonObject['townInfo'];
         console.table(jsonObject);
-            for (let i = 0; i < prophets.length; i++ ) {
+            for (let i = 0; i < townInfo.length; i++ ) {
                 let section = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let p = document.createElement('p');

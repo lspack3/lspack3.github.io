@@ -59,31 +59,32 @@ nav {
   }
 
   /* main code */
-.townFacts h2 {
+.preston h2, .fishHaven h2, .sodaSprings h2 {
   font-family: "Gloria Hallelujah";
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color:#083D77;
   margin: 0 auto;
 }
-.townFacts p {
+.preston p, .fishHaven p, .sodaSprings p {
   font-family: "Hind Guntur";
   font-size: 15px;
   text-align: center;
 }
-.townFacts h5 {
+.preston h5, .fishHaven h5, .sodaSprings h5 {
   font-family: "Hind Guntur";
   color:#083D77;
   font-size: 18px;
   padding: 5px;
 }
-.townFacts {
+main {
   display: grid;
   grid-template-columns: 1fr;
 }
 section {
-  background-color: #F2CB40;
-  margin: .5em;
+  background-color: #75e2fa9d;
+  padding: 10px;
+  margin-top: 1em;
   border: 2px solid lightgray;
 }
 

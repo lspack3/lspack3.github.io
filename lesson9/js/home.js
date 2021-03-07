@@ -6,32 +6,25 @@ window.addEventListener('load', () => {
         return response.json();
     })
     .then(function (jsonObject) {
-        const townInfo = jsonObject['townInfo'];
-        console.table(jsonObject);
+        const townInfo = jsonObject['towns'];
+        const towns = {"Preston": "preston", "Fish Haven": "fishHaven", "Soda Springs": "sodaSprings"};
+
+        console.log(townInfo);
             for (let i = 0; i < townInfo.length; i++ ) {
-                let section = document.createElement('section');
-                let h2 = document.createElement('h2');
-                let p = document.createElement('p');
-                let founded = document.createElement('h5');
-                let population = document.createElement('h5');
-                let rainFall = document.createElement('h5');
-                let image = document.createElement('img');
+                if (townInfo[i].name in towns) {
+                let name = townInfo[i].name;
+                let motto = townInfo[i].motto;
+                let founded = 'Year Founded: ' + townInfo[i].yearFounded;
+                let population = 'Population: ' + townInfo[i].currentPopulation;
+                let rainFall = 'Annual Rain Fall: ' + townInfo[i].averageRainfall;
 
-        h2.textContent = townInfo[i].name;
-        p.textContent = townInfo[i].motto;
-        founded.textContent = 'Year Founded: ' + townInfo[i].yearFounded;
-        population.textContent = 'Population: ' + townInfo[i].currentPopulation;
-        rainFall.textContent = 'Annual Rain Fall: ' + townInfo[i].averageRainfall;
-        image.setAttribute('src', townInfo[i].photo);
-
-        section.appendChild(h2);
-        section.appendChild(p);
-        section.appendChild(founded);
-        card.appendChild(population);
-        card.appendChild(rainFall);
-        section.appendChild(image);
-
-        document.querySelector('div.townFacts').appendChild(section);
+            const x = towns[townInfo[i].name];
+            document.querySelector('.' + x + " h2").innerHTML = name;
+            document.querySelector('.' + x + " p").innerHTML = motto;
+            document.querySelector('.' + x + " h5.founded").innerHTML = founded;
+            document.querySelector('.' + x + " h5.population").innerHTML = population;
+            document.querySelector('.' + x + " h5.rainfall").innerHTML = rainFall;      
+            }
         }
     });
 });

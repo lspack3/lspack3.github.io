@@ -55,9 +55,35 @@ main {
       }
 
     /* main code */  
-   
-    
-
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      section {
+        display: inline-block;
+        margin: 1em;
+        padding: 15px;
+      }
+      .preston p, .fishHaven p, .sodaSprings p {
+        font-weight: bold;
+      }
+      section img {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .fishHaven, .sodaSprings {
+        margin-top: 3em;
+      }
+      .sodaSprings {
+        margin-bottom: 1em;
+      }
+      #title {
+        background-color: #f2cb40;
+        border-radius: 25px;
+        margin: -10px auto;
+        margin-bottom: 2em;
+        padding: 0;
+      }
     
 
 

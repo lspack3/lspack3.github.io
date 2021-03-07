@@ -75,6 +75,13 @@ nav {
     grid-column: 1/2;
     grid-row: 1/2;
   }
+  .fishHaven img {
+    grid-column: 1/2;
+  }
+  .fishHaven > .data {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
 
 .preston h2, .fishHaven h2, .sodaSprings h2 {
   font-family: "Gloria Hallelujah";
@@ -95,10 +102,9 @@ nav {
 }
 section img {
   margin: 1em;
+  align-self: center;
   max-width: 95%;
 }
-
-
 
 .preston {
   margin-top: 3em;

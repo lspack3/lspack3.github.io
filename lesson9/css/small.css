@@ -59,36 +59,53 @@ nav {
   }
 
   /* main code */
+  section {
+    background-color: #75e2fa9d;
+    margin-top: 1em;
+    padding: 10px;
+    border: 2px solid lightgray;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section:nth-child(odd) img {
+    grid-column: 2/3;
+  }
+  section:nth-child(odd) .data {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
 .preston h2, .fishHaven h2, .sodaSprings h2 {
   font-family: "Gloria Hallelujah";
   font-size: 30px;
-  text-align: center;
   color:#083D77;
-  margin: 0 auto;
+  margin-bottom: -.5em;
+  margin-top: 5px;
 }
 .preston p, .fishHaven p, .sodaSprings p {
   font-family: "Hind Guntur";
   font-size: 15px;
-  text-align: center;
 }
 .preston h5, .fishHaven h5, .sodaSprings h5 {
   font-family: "Hind Guntur";
   color:#083D77;
   font-size: 18px;
-  padding: 5px;
+  margin-top: -8px;
 }
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-section {
-  background-color: #75e2fa9d;
-  padding: 10px;
-  margin-top: 1em;
-  border: 2px solid lightgray;
+section img {
+  margin: 1em;
+  max-width: 95%;
 }
 
 
+
+.preston {
+  margin-top: 3em;
+}
+.sodaSprings {
+  margin-bottom: 2em;
+}
 
 
   /* footer code */

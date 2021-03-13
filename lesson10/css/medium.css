@@ -51,7 +51,7 @@ main {
   .topGrid .summary {
     grid-column: 1/2;
     grid-row: 1/-1;
-    background-color: #fff7b4c2;
+    background-color: #fff8b4dc;
     padding: 5px;
     margin: 12% 2em;
     margin-bottom: 1em;

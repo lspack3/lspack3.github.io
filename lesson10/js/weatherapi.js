@@ -17,4 +17,6 @@ fetch(apiURL)
     document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
     document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
     document.getElementById('icon').setAttribute('alt', desc);
+
+    
   });

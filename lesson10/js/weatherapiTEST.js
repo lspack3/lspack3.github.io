@@ -6,11 +6,11 @@ fetch(apiURL)
     console.table(jsObject);
     console.log(jsObject);
 
-    document.getElementById('current').textContent = jsObject.weather[0].description;
-    document.getElementById('temp').textContent = jsObject.main.temp + " *F";
-    document.getElementById('chill').textContent = jsObject.wind.deg;
-    document.getElementById('humidity').textContent = jsObject.main.humidity + "%";
-    document.getElementById('wind-speed').textContent = jsObject.wind.speed + " mph";
+    document.getElementById('current-temp').textContent = jsObject.main.temp;
+    //document.getElementById('high-temp').textContent = jsObject.main.temp_max;
+    //document.getElementById('wind-chill').textContent = jsObject.wind.deg;
+    //document.getElementById('humidity').textContent = jsObject.main.humidity;
+    //document.getElementById('wind-speed').textContent = jsObject.wind.speed;
 
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
     const desc = jsObject.weather[0].description;

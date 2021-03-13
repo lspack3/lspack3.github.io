@@ -25,5 +25,12 @@ fetch("http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a74c7e35
   .then((jsObject) => {
     console.table(jsObject);
     console.log(jsObject);  // for testing
+  
+  for (var i = 0; jsObject.length; i++) {           //for every object array 
+      if (jsObject.dt_txt.includes("18:00:00")) {   //if dt_txt contains 18:00:00 
+                                        // then input the data in that array into .fiveDay
+      }
+
+  }  
 
   });

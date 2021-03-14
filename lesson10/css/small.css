@@ -118,6 +118,7 @@ nav {
     text-decoration: underline;
     padding: 5px;
     margin: .5em auto;
+    margin-top: 1em;
   }
   .fiveDay {
     display: flex;
@@ -145,7 +146,8 @@ nav {
   }
   .fiveForecast img { 
     padding: .5em;
-    margin-left: .75em;
+    margin-left: .10em;
+    width: 80%;
   }
   .fiveForecast p {
     font-family: "Hind Guntur";

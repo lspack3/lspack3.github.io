@@ -20,6 +20,15 @@ main {
         display: inline;
         border-top: none;
     }
+    header h1, header h3 {
+        margin-left: -1em;
+        margin-right: 2em;
+    }
+    #logo {
+      padding: 5px;
+      margin-top: -1em;
+      margin-left: .5em;
+    }
 
   /* hero img and summary code */
     .topGrid {
@@ -54,15 +63,8 @@ main {
     }
 
 /* five day forcast code */
-    article {
-      margin-left: 1.5em;
-    }
-    article img {
-      margin: 10px;
-      float: right;
-    }
     #fiveDayheadline {
-      margin-left: 1em;
+      margin-top: 1em;
     }
     .fiveDay {
       display: flex;
@@ -71,12 +73,32 @@ main {
     .fiveDay {
       padding: 10px;
       margin: 1em auto;
-      height: 200px;
+      height: auto;
       width: 85%;
-      padding-left: 9em;
+      padding-left: 1em;
       border-style: outset;
       border-width: .5em;
       background-color: #75E2FA;
+    }
+    .fiveForecast h3 {
+      font-size: 30px;
+      margin: 0 auto;
+    }
+    .fiveForecast img {
+      margin-left: 1em;
+      image-resolution: 100dpi;
+    }
+    .fiveForecast p {
+      font-size: 22px;
+      margin: 0 auto;
+    }
+
+    article {
+      margin-left: 1.5em;
+    }
+    article img {
+      margin: 10px;
+      float: right;
     }
 
     /* footer code */

@@ -28,6 +28,7 @@ main {
     #logo {
         margin-left: 0;
         margin-right: -6em;
+        padding-top: 5px;
     }
     #navigation {
       list-style-type: none;
@@ -79,11 +80,15 @@ main {
   .fiveDay {
     padding: 10px;
     margin: 1em auto;
-    height: 200px;
+    height: auto;
     width: 95%;
     border-style: outset;
     border-width: .5em;
     background-color: #75E2FA;
+  }
+  .fiveForecast img {
+    margin-left: .75em;
+    image-resolution: 100dpi;
   }
 
 

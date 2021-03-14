@@ -5,8 +5,8 @@ const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-   // console.table(jsObject);
-   // console.log(jsObject);  // for testing
+    console.table(jsObject);
+    console.log(jsObject);  // for testing
     document.getElementById('current').textContent = jsObject.weather[0].description;
     document.getElementById('temp').textContent = jsObject.main.temp + " *F";
     document.getElementById('chill').textContent = jsObject.wind.deg;

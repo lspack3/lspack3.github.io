@@ -74,16 +74,18 @@ main {
   .fiveDay {
     display: flex;
     justify-content: space-around;
+    list-style: none;
   }
   .fiveDay {
     padding: 10px;
     margin: 1em auto;
-    height: 100px;
+    height: 200px;
     width: 95%;
     border-style: outset;
     border-width: .5em;
     background-color: #75E2FA;
   }
+
 
   /* article code */
   article {

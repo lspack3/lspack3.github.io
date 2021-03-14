@@ -96,6 +96,7 @@ nav {
     font-size: 30px; 
     margin-left: 1em;
     margin-top: .25em;
+    text-decoration: underline;
   }
   .summary p, span {
     font-family: "Hind Guntur";
@@ -108,15 +109,55 @@ nav {
   .summary img {
     display: none;
   }
+
+  /* forecast code */
   #fiveDayheadline {
     font-family: "Gloria Hallelujah";
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+    text-decoration: underline;
     padding: 5px;
     margin: .5em auto;
   }
   .fiveDay {
-    display: none;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .fiveDay {
+    padding: 10px;
+    margin: 1em auto;
+    height: auto;
+    width: 90%;
+    padding-left: 1em;
+    border-style: outset;
+    border-width: .5em;
+    background-color: #75E2FA;
+  }
+  .fiveForecast h3 {
+    font-family: "Gloria Hallelujah";
+    background-color: #F2CB40;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid;
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .fiveForecast img { 
+    padding: .5em;
+    margin-left: .75em;
+  }
+  .fiveForecast p {
+    font-family: "Hind Guntur";
+    background-color: #F9F9F1;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-top: 2px solid;
+  }
+  .fiveForecast {
+    border: 2px solid black;
   }
 
 /* article code */
@@ -125,6 +166,7 @@ nav {
     text-align: left;
     font-size: 20px;
     margin-left: 1em;
+    text-decoration: underline;
   }
   article {
     font-family: "Hind Guntur";

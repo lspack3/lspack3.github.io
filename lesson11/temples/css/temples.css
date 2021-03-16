@@ -1,0 +1,26 @@
+
+section {
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    color:crimson;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    margin: .5em;
+    text-decoration: underline;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    
+}
+p {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10em;
+}

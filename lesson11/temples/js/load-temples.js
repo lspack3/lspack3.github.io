@@ -6,5 +6,6 @@ window.addEventListener('load', () => {
         })
         .then((jsonObject) => {
             console.log(jsonObject);
+            console.log(jsonObject[0]);
         });
 });

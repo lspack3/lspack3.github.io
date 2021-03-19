@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a74c7e35f6bf8eabf46deae3c9db19c3&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=a74c7e35f6bf8eabf46deae3c9db19c3&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -15,7 +15,7 @@ fetch(apiURL)
   });
 
 
-fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a74c7e35f6bf8eabf46deae3c9db19c3&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=a74c7e35f6bf8eabf46deae3c9db19c3&units=imperial")
   .then((response) => response.json())
   .then((jsObject) => {
   console.table(jsObject);

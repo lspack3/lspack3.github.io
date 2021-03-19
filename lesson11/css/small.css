@@ -178,8 +178,13 @@ nav {
     margin: 0 auto;
   }
   article img {
-    padding: 5px;
-    margin: auto 1em;
+    padding: 10px;
+    margin: .5em;
+    max-width: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 5px 5px 8px 8px #888888;
+    
   }
 
 

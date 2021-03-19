@@ -94,11 +94,13 @@ main {
     }
 
     article {
-      margin-left: 1.5em;
+      margin: 3em;
     }
     article img {
       margin: 10px;
-      float: right;
+      display: inline-block;
+      position: relative;
+      max-width: 25%;
     }
 
     /* footer code */

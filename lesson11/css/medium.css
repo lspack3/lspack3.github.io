@@ -100,6 +100,8 @@ main {
     margin: 10px;
     position: relative;
     display: flex;
+    max-width: 25%;
+    align-items: right;
   }
   
 

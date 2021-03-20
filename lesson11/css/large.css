@@ -93,6 +93,14 @@ main {
       margin: 0 auto;
     }
 
+  /* town events code */
+  .townEvents {
+    margin: 4em;
+    margin-left: 20em;
+    padding: 5px;
+    max-width: 50%;
+  }
+
     article {
       margin: 3em;
     }

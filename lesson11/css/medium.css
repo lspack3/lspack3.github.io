@@ -91,6 +91,14 @@ main {
     image-resolution: 100dpi;
   }
 
+  /* town events code */
+  .townEvents {
+    margin: 3em;
+    margin-left: 13em;
+    padding: 5px;
+    max-width: 55%;
+  }
+
 
   /* article code */
   article {

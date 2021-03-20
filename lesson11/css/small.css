@@ -162,6 +162,28 @@ nav {
     border: 2px solid black;
   }
 
+  /* town events code */
+  .townEvents {
+    margin: 2em;
+    padding: 5px;
+    border: 6px double #F2CB40;
+    box-shadow: 6px 6px 6px #888888;
+    background-color: #083e77;
+    max-width: 85%;
+  }
+  .townEvents h3 {
+    font-family: 'Gloria Hallelujah';
+    text-decoration: underline;
+    text-align: center;
+    color:#F9F9F1;
+  }
+  .townEvents ul {
+    list-style-type: none;
+    font-family: 'Hind Guntur';
+    color:#F9F9F1;
+  }
+
+
 /* article code */
   article h4 {
     font-family: "Gloria Hallelujah";

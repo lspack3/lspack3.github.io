@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE Checkout</title>
+    <link rel="stylesheet" href="scss/checkout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <section class="orderSum">
+        <img id="progress" src="images/progress-bar.jpg">
+        <h1>Order Summary</h1>
+        <div class="summary">
+            <ul>
+            <li class="charge">Order Subtotal</li>
+            <span class="amount">$ 46.95</span>
+            <li class="charge">Shipping & Handling</li>
+            <span class="amount">$ 6.00</span>
+            <li class="charge">Sales Tax</li>
+            <span class="amount">$ 8.05</span>
+            <hr>
+            <li class="charge">Payment Due</li>
+            <span class="finalAmount">$ 61.00</span>
+            </ul>
+        </div>
+
+        <p class="returnToCart"><a href="#">Return To Cart</a></p>
+    </section>
+
+    <section class="paymentDets">
+        <div class="cardIcons">
+            <img id="visa" src="images/visa-48.png">
+            <img id="paypal" src="images/paypal-3-48.png">
+        </div>
+        <h1>Payment Details</h1>
+        <div class="payment">
+        <li>   
+            <h4>Cardholder Name</h4>
+            <input type="text" id="name" name="cardholder" placeholder="John Doe">
+        </li> 
+            <hr>
+        <li>
+            <h4>Card Number</h4>
+            <input type="text" id="carNum" name="cardNum" placeholder="xxxx-xxxx-xxxx-xxxx">
+        </li>    
+            <hr>
+        <li class="exCVV">
+            <h4>Expriation Date</h4>
+            <label for="expiration"> Month<input list="exMonth" id="expMon" name="exMonth">
+                <datalist id="exMonth"> 
+                <option value="01">
+                <option value="02">
+                <option value="03">
+                <option value="04">
+                <option value="05">
+                <option value="06">
+                <option value="07">
+                <option value="08">
+                <option value="09">
+                <option value="10">
+                <option value="11">
+                <option value="12">
+                </datalist>
+            </label> 
+            <label for="expiration"> Year<input list="exYear" id="expYr" name="exYear">
+                <datalist id="exYear"> 
+                <option value="2020">
+                <option value="2021">
+                <option value="2022">
+                <option value="2023">
+                <option value="2024">
+                <option value="2025">
+                <option value="2026">
+                <option value="2027">
+                </datalist>
+            </label> 
+            
+            <h4 class="cvv">CVV &#63;</h4>
+            <input type="number" id="cvv" name="cvv">
+        </li>
+            <hr>
+        <li>
+            <h4>Billing Address</h4>
+            <input type="text" id="address" name="address" placeholder="123 Main St">
+            <hr>
+        </li>
+        </div>
+
+            <label for="billing" class="checkbox">
+                <input type="checkbox" id="billing" name="billing">Same as shipping address
+            </label>
+        <br>
+        <div class="buttons">
+            <button>NEXT</button>
+            <p class="cancel"><a href="#">Cancel</a></p>  
+        </div>
+        
+        <div class="secure">
+            <p>&#x1f512;This is a secure transaction</p>
+        </div>
+    </section>
+</body>
+</html>

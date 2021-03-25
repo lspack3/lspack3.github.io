@@ -1,0 +1,194 @@
+$mainblue:#1D6DE3;
+$boldtext:#6D6D6D;
+$heavy:700;
+$regular:400;
+
+body {
+    background-color: $boldtext;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.orderSum {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    background-color: #D9D9D9;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+    
+    img {
+        margin: -10px;
+        margin-bottom: 1em;
+        padding: 0;
+    } // end img
+    h1 {
+        color: $boldtext;
+        font-weight: $heavy;
+        text-align: center;
+        margin-top: 1.5em;
+        padding: 10px;
+        font-size: 35px;
+        margin-bottom: .5em;
+    } // end h1
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-decoration: none;
+        list-style: none;
+        padding: 5px;
+    } // end ul
+    .charge {
+        padding: 10px;
+        color: #ADADAD;
+        font-weight: $heavy;
+        grid-column: 1;
+        margin-left: 1em;
+    } // end charge class
+    .amount {
+        color: $boldtext;
+        font-weight: $heavy;
+        grid-column: 2;
+        text-align: right;
+        margin-right: 1em;
+        padding: 10px;
+    } // end amount class
+    hr {
+        grid-column: 1/3;
+        width: 325px;
+        border: 1px solid #ADADAD;
+    } // end hr
+    .finalAmount {
+        color: $mainblue;
+        font-weight: $heavy;
+        text-align: right;
+        margin-right: 1em;
+        padding: 10px;
+    } // end finalamount class
+    p {
+        font-size: 12px;
+        padding: 10px;
+        margin: 1.5em;
+    }// end p
+} // end order summary class //
+
+.paymentDets{ 
+    background-color: white;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+
+    .cardIcons {
+        text-align: right;
+
+        #paypal {
+            background-color: #D9D9D9;
+            margin-left: -2px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 15px;
+        } // end paypal
+        #visa {
+            margin-right: -2px;
+        } // end visa
+    } // end cardIcons class
+
+    h1 {
+        color: $boldtext;
+        font-weight: $heavy;
+        text-align: center;
+        margin-top: .5em;
+        padding: 10px;
+        font-size: 35px;
+        margin-bottom: .5em;
+    } // end h1
+    li {
+        list-style: none;
+    }
+    .payment {
+        padding: 10px;
+        color: #ADADAD;
+        font-weight: $heavy;
+        margin-left: 1.5em;
+
+        h4 {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        } // end h4
+        input {
+            width: 220px;
+            margin: 5px;
+        } // end gen input
+        #expMon , #expYr, #cvv {
+            width: 50px;
+        } // end expriation inputs
+        .exCVV {
+            display: grid;
+            grid-template-rows: auto auto;
+
+            h4 {
+                grid-row: 1;
+            } 
+            .cvv{
+                margin-left: 8.5em;
+                margin-right: 0;
+            }
+            #cvv {
+                margin-left: -6em;
+            }
+            label, input {
+                grid-row: 2;
+            }
+        } // end excvv class 
+    } // end payment class
+    hr {
+        grid-column: 1/3;
+        width: 325px;
+        border: 1px solid #ADADAD;
+        margin-left: 0;
+    } // end hr
+    .checkbox {
+        font-size: 10px;
+        color: #ADADAD;
+        padding: 10px;
+        margin-left: 1.5em;
+    }
+    .buttons {
+        display: grid;
+        grid-template-columns: auto auto;
+    
+        button {
+            width: 140px;
+            height: 40px;
+            border-radius: 25px;
+            background-color: $mainblue;
+            color: white;
+            font-weight: $heavy;
+            font-size: 15px;
+            margin: 2em;
+            box-shadow: 3px 3px 3px 3px #bbbbbb;
+            grid-column: 1;
+        }// end button 
+        .cancel {
+            grid-column: 2;
+            padding: 10px;
+            margin-top: 2em;
+        }
+    }// end buttons class  
+    .secure {
+        font-size: 10px;
+        color: #ADADAD;
+        padding: 10px;
+        text-align: right;
+    } // end secure class
+} // end paymentDets class 

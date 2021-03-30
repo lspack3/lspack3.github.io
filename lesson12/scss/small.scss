@@ -2,6 +2,7 @@ $maincolor: #03B6D1;
 $secondarycolor: #FFD072;
 $skyblue: #D1EEF5;
 $lightgray: #EFF0F0;
+$buttonpurp:  rgb(145, 145, 253);
 
 @media screen and (max-width: 50em) { 
 
@@ -21,7 +22,6 @@ $lightgray: #EFF0F0;
         }//end logo
     /* nav code */    
         nav {
-            background-color: $lightgray;
             line-height: 2em;
             text-align: center;
             font-size: 2em;
@@ -32,9 +32,9 @@ $lightgray: #EFF0F0;
         #navigation {
             list-style-type: none;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
             margin: 1em;
             text-decoration: none;
+            background-color: $lightgray;       
         }
         nav a {
             padding: 1em;
@@ -49,6 +49,9 @@ $lightgray: #EFF0F0;
         }
         li {
             flex-basis: 25%;
+        }
+        .active {
+            background-color: $skyblue;
         }// end nav code
 
         h1 {
@@ -70,14 +73,14 @@ $lightgray: #EFF0F0;
             padding: 25px;
             font-size: 40px;
             border-radius: 50%;
-            background-color: rgb(145, 145, 253);
+            background-color: $buttonpurp;
             color: white;
             font-family: "Great Vibes";
             border: 3px solid black;
             box-shadow: 5px 5px 8px #888888;
         }
         .bButton:hover {
-            color: rgb(145, 145, 253);
+            color:$buttonpurp;
             background-color: $skyblue;
         }
     }// end button, booking
@@ -126,20 +129,18 @@ $lightgray: #EFF0F0;
     nav {
         margin: 0 auto;
         max-width: 125px;
-        background-color: $lightgray;
-        border-radius: 30%;
     } 
     #navigation {
         list-style: none;
         padding: 0;
         display: grid;
-        grid-template-columns: auto;
     }
     #navigation li:first-child {
         display: block;
     }
     #navigation li {
         display: none;
+        background-color: $lightgray;
     }
     #navigation a:link
 , #navigation a:visited
@@ -155,7 +156,6 @@ $lightgray: #EFF0F0;
     #navigation a:hover {
         color:$secondarycolor;
         background-color: $skyblue;
-        border-radius: 30%;
     }
     #navigation.responsive li {
         display: block;

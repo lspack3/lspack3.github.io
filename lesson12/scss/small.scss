@@ -8,7 +8,6 @@ $lightgray: #EFF0F0;
     body {
         background-color: white;
         font-family: "Playfair Display", serif;
-        padding: 5px;
     }
     header {
         background-color: $secondarycolor;
@@ -92,21 +91,35 @@ $lightgray: #EFF0F0;
             font-family:"Great Vibes", cursive;
             font-size: 40px;
             color: $maincolor;
-            text-decoration: underline;
+            margin-left: 15px;
         }
         #dc-temple {
-            max-width: 80%;
-            margin: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            max-width: 100%;
+            margin:0 auto;
+            padding: 15px;
         }
         article {
             padding: 10px;
             line-height: 1.5em;
+            margin-bottom: 1em;
         }
     } // end temple spotlight article 
+    .short-contact {
+        padding: 15px;
+        background-color: $skyblue;
+        margin: 1em .5em;
 
+        .social {
+            text-decoration: none;
+            padding: 5px;
+        }
+    }// end contact summary
+
+    footer {
+        background-color: $secondarycolor;
+        padding: 15px;
+        text-align: center;
+    }//end footer
 
 
     /* ham nav code */
@@ -114,6 +127,7 @@ $lightgray: #EFF0F0;
         margin: 0 auto;
         max-width: 125px;
         background-color: $lightgray;
+        border-radius: 30%;
     } 
     #navigation {
         list-style: none;
@@ -137,11 +151,11 @@ $lightgray: #EFF0F0;
     text-align: left;
     color:$maincolor;
     text-decoration: none;
-    font-weight: bold;
     }
     #navigation a:hover {
         color:$secondarycolor;
         background-color: $skyblue;
+        border-radius: 30%;
     }
     #navigation.responsive li {
         display: block;

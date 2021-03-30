@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="css/slideshow.css"> 
+    <link rel="stylesheet" href="scss/small.css">
+    <link rel="stylesheet" href="scss/medium.css">
+    <link rel="stylesheet" href="scss/large.css">
     <script src="js/slideshow.js"></script>
 
     <title>Home | The Temple Inn & Suites</title>
@@ -24,6 +27,7 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <h1>The Temple Inn & Suites</h1>  
     </header>
     <main>
     <!-- slideshow container -->
@@ -58,26 +62,30 @@
             <span class="dot" onclick="currentSlide(5)"></span> 
         </div>
         <!--reservation button-->
-        <button class="booking">Book Now</button>
+        <div class=booking>
+        <button class="bButton" type="button" onclick="window.location.href='reservation.html';">Book Now</button>
+        </div>
         <!--Spotlight temple article-->
         <div class="spotlight">
             <h2 id="temple-spot">The Spotlight Temple</h2>
             <article>
                 On a serene 57.4-acre hilltop in Kensington, Maryland, the Washington DC Temple creates an impressive sight for travelers along the Capital Beltway. The 16th operating temple of The Church of Jesus Christ of Latter-day Saints serves Church members in the District of Columbia, Virginia, Pennsylvania, Maryland, Delaware, West Virginia and New Jersey. 
-
+                <br>
                 The Washington DC Temple was the first Latter-day Saint temple to be built on the East Coast of the United States. When the temple was completed in 1974, it served all Latter-day Saints living east of the Mississippi and some Latter-day Saints in South America and Canada. At 160,000 square feet, it is the third largest temple in the world. It contains instruction rooms and sealing rooms, where marriages are performed.
-
+                <br>
                 On the east side of the temple, the central tower reaches a height of 288 feet, making it the tallest spire on a Latter-day Saint temple anywhere in the world. The three spires on the east and the three on the west represent two branches of Church leadership, the Aaronic and Melchizedek Priesthoods. The six-spire design echoes the design of the Salt Lake Temple. An 18-foot-tall sculpture of angel Moroni created by Avard Fairbanks graces the tallest spire. The statue, cast in bronze and covered in gold leaf, was the third to be placed on a temple. Fairbanks portrayed the angel Moroni lifting a trumpet to his lips and holding golden plates in his left arm. Latter-day Saint sculptor Franz Johansen created 16 bronze medallions — eight of which decorate the temple gates and eight of which decorate the temple doors — illustrating the sun, moon, and stars, among other designs.
-
+                <br>
                 Nearly six years after the temple was announced on November 15, 1968, the temple was ready to be dedicated. The temple opened to the public from September 17 to October 19, 1974, and more than 750,000 visitors toured the building. High profile visitors, including Betty Ford, Gerald Ford’s wife, were among those who viewed the temple interior.
-
+                <br>
                 The temple was dedicated in 10 sessions held from November 19 to 22, 1974. Church President Spencer W. Kimball offered the dedicatory prayer, in which he gave thanks for those who paved the way for the founding of the United States: “We are grateful that thou didst cause this land to be rediscovered and settled by people who founded a great nation with an inspired constitution guaranteeing freedom in which there could come the glorious restoration of the gospel and the Church of thy Beloved Son.”
-
+                <br>
+                <img id="dc-temple" src="images/dc-temple.jpg" alt="washington dc temple at night">
+                <br>
                 On March 3, 2018, the Washington DC Temple closed for an extensive renovation. The building will receive considerable upgrades to its mechanical system and the finishes and furnishings will be refreshed. There will also be changes to the landscaping and a small addition to the exterior to enclose a new elevator system and stairs.
-
+                <br>
                 On June 17, 2020, the Church announced that, because of concern for the effects of COVID-19, the open house, youth devotional, and rededication of the Washington DC Temple are postponed until large public gatherings are deemed safe.
             </article>
-            <img id="dc-temple" src="images/dc-temple.jpg" alt="washington dc temple at night">
+            
         </div>
         <!--contact summary info -->
         <div class="short-contact">

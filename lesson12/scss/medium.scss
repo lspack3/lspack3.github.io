@@ -1,0 +1,44 @@
+$maincolor: #03B6D1;
+$secondarycolor: #FFD072;
+$skyblue: #D1EEF5;
+$lightgray: #EFF0F0;
+$buttonpurp:  rgb(145, 145, 253);
+
+@media screen and (min-width: 50em) and (max-width: 65em) { 
+
+    header li {
+        display: inline !important;
+    }
+    header li:first-child {
+        display: none !important;
+    }
+    #navigation li .active {
+        background-color: $skyblue;
+      }
+    header nav {
+        background-color: $lightgray;
+        max-width: 100%;
+        margin-top: 1.5em;
+        margin-left: auto;
+        line-height: 1.5em;
+      }
+    header nav a {
+        display: inline;
+        border-top: none;
+      }
+    #navigation {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: .4em;
+      }
+    header h1 {
+        position: absolute;
+        left: 200px;
+        top: 35px;
+        z-index: auto;
+        margin: .5em;
+    }
+
+    
+} /* end media query */

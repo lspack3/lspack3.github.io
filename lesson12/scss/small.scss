@@ -4,12 +4,10 @@ $skyblue: #D1EEF5;
 $lightgray: #EFF0F0;
 $buttonpurp:  rgb(145, 145, 253);
 
-@media screen and (max-width: 50em) { 
-
-    body {
-        background-color: white;
-        font-family: "Playfair Display", serif;
-    }
+body {
+    background-color: white;
+    font-family: "Playfair Display", serif;
+}
     header {
         background-color: $secondarycolor;
         padding: 5px;
@@ -25,7 +23,7 @@ $buttonpurp:  rgb(145, 145, 253);
             line-height: 2em;
             text-align: center;
             font-size: 2em;
-            margin-left: 13em;
+            margin-left: 11.5em;
             margin-right: 5px;
             margin-top: -5em;
         }
@@ -160,5 +158,3 @@ $buttonpurp:  rgb(145, 145, 253);
     #navigation.responsive li {
         display: block;
     } 
-
-    } /* end media query */

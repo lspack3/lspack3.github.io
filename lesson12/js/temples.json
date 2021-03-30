@@ -15,11 +15,12 @@
             "April 3rd, 2021", "April 12, 2021", "July 24, 2021", "August 23, 2021 - September 13, 2021"
         ],
         "sessions":[
-
+            "6:00", "6:45", "7:30", "8:15", "9:00", "9:45", "10:30", "11:15", "12:00", "12:45", "13:30", "14:15", "15:00", "15:45", "16:15", "17:00", "17:45", "18:30", "19:15", "20:00", "20:45"
         ],
         "ordinances":[
 
-        ]
+        ],
+        "history": "The Rexburg Temple was dedicated on February 10th, 2008 by President Thomas S. Monson."
     },
     {
         "name":"Anchorage Alaska Temple",
@@ -37,11 +38,12 @@
             "April 3, 2021", "June 8, 2021 - June 21, 2021", "October 2, 2021"
         ],
         "sessions":[
-
+            "6:00", "8:00", "10:00", "12:00", "14:00", "16:00", "18:00"
         ],
         "ordinances":[
             
-        ]
+        ],
+        "history": "The Anchorage Temple was originally dedicated on January 9th, 1999. After renovations it was rededicated on February 8th, 2004. Both dedications were done by President Gordon B. Hinckley."
     },
     {
         "name":"Manhattan New York Temple",
@@ -59,11 +61,12 @@
             "July 26, 2021 - August 9, 2021"
         ],
         "sessions":[
-
+            "Closed due to COVID. Call to schedule for living ordinances."
         ],
         "ordinances":[
-            
-        ]
+            "Closed due to COVID."
+        ],
+        "history": "The Manhattan Temple was dedicated on June 13th, 2004 by President Gordon B. Hinckley."
     },
     {
         "name":"Provo City Center Temple",
@@ -81,10 +84,11 @@
             "April 3, 2021", "June 21, 2021 - July 5, 2021", "July 24, 2021"
         ],
         "sessions":[
-
+            "6:00", "6:45", "7:30", "8:15", "9:00", "9:45", "10:30", "11:15", "12:00", "12:45", "13:30", "14:15", "15:00", "15:45", "16:15", "17:00", "17:45", "18:30", "19:15", "20:00", "20:45"
         ],
         "ordinances":[
             
-        ]
+        ],
+        "history": "The Provo City Center Temple was dedicated on March 20th, 2016 by Elder Dallin H. Oaks."
     }
 ]

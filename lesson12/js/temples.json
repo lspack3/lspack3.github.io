@@ -1,0 +1,90 @@
+[
+    {
+        "name":"Rexburg Idaho Temple",
+        "phone":"208-656-0880",
+        "address1":"750 S 2nd E",
+        "city":"Rexburg",
+        "state":"ID",
+        "zip":83440,
+        "email":"rexbu-off@churchofjesuschrist.org",
+        "imageurl":"https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg",
+        "services":[
+            "Clothing rental", "Distribution center"
+        ],
+        "closure":[
+            "April 3rd, 2021", "April 12, 2021", "July 24, 2021", "August 23, 2021 - September 13, 2021"
+        ],
+        "sessions":[
+
+        ],
+        "ordinances":[
+
+        ]
+    },
+    {
+        "name":"Anchorage Alaska Temple",
+        "phone":"907-348-7890",
+        "address1":"13161 Brayton Dr.",
+        "city":"Anchorage",
+        "state":"AK",
+        "zip":99516,
+        "email":"anch-off@churchofjesuschrist.org",
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/1200x675/anchorage-temple-lds-253274-wallpaper.jpg",
+        "services":[
+            "None"
+        ],
+        "closure":[
+            "April 3, 2021", "June 8, 2021 - June 21, 2021", "October 2, 2021"
+        ],
+        "sessions":[
+
+        ],
+        "ordinances":[
+            
+        ]
+    },
+    {
+        "name":"Manhattan New York Temple",
+        "phone":"917-441-8220",
+        "address1":"125 Columbus Ave, Fourth Floor",
+        "city":"New York",
+        "state":"NY",
+        "zip":10023,
+        "email":"manny-off@churchofjesuschrist.org",
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manhattan-new-york/1280x800/manhattan-temple-lds-248728-wallpaper.jpg",
+        "services":[
+            "Clothing rental", "Distribution center"
+        ],
+        "closure":[
+            "July 26, 2021 - August 9, 2021"
+        ],
+        "sessions":[
+
+        ],
+        "ordinances":[
+            
+        ]
+    },
+    {
+        "name":"Provo City Center Temple",
+        "phone":"801-343-2700",
+        "address1":"50 S University Ave.",
+        "city":"Provo",
+        "state":"UT",
+        "zip":84601,
+        "email":"citycenter-off@churchofjesuschrist.org",
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/1280x800/provo-city-center-temple-1550159-wallpaper.jpg",
+        "services":[
+            "Clothing rental", "Distribution center"
+        ],
+        "closure":[
+            "April 3, 2021", "June 21, 2021 - July 5, 2021", "July 24, 2021"
+        ],
+        "sessions":[
+
+        ],
+        "ordinances":[
+            
+        ]
+    }
+]

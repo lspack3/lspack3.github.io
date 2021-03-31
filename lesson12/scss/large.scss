@@ -4,7 +4,7 @@ $skyblue: #D1EEF5;
 $lightgray: #EFF0F0;
 $buttonpurp:  rgb(145, 145, 253);
 
-@media screen and (min-width: 50em) and (max-width: 65em) { 
+@media only screen and (min-width: 65em) {
 
     header li {
         display: inline !important;
@@ -12,33 +12,32 @@ $buttonpurp:  rgb(145, 145, 253);
     header li:first-child {
         display: none !important;
     }
-    #navigation li .active {
-        background-color: $skyblue;
-      }
     header nav {
         background-color: $lightgray;
         max-width: 100%;
-        margin-top: 1.5em;
         margin-left: auto;
         line-height: 1.5em;
-      }
+        margin-top: 1.5em;
+    }
     header nav a {
         display: inline;
         border-top: none;
-      }
+    }
     #navigation {
         list-style-type: none;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         margin: .4em;
-        text-align: center;
-      }
+    }
     header h1 {
         position: absolute;
-        left: 200px;
+        left: 300px;
         top: 35px;
         z-index: auto;
         margin: .5em;
+    }
+    article img {
+        max-width: 25%;
     }
     
 } /* end media query */

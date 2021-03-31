@@ -36,6 +36,8 @@ $buttonpurp:  rgb(145, 145, 253);
         z-index: auto;
         margin: .5em;
     }
+/* end universal code */
+/* start home page code */
     .temple-status {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -44,6 +46,6 @@ $buttonpurp:  rgb(145, 145, 253);
             width: 100%;   
         }
     }//end temple status div
-
+/* end home page code */
     
 } /* end media query */

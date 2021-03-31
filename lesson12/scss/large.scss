@@ -36,8 +36,14 @@ $buttonpurp:  rgb(145, 145, 253);
         z-index: auto;
         margin: .5em;
     }
-    article img {
-        max-width: 25%;
-    }
+    .temple-status {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        #dc-temple {
+            width: 100%;   
+        }
+    }//end temple status div
+
     
 } /* end media query */

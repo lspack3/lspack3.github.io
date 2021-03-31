@@ -1,7 +1,36 @@
 window.addEventListener('load', () => {
-    const requestURL = "js/temples.json"
-    fetch(requestURL) 
-        .then(function (response) {
+    const sourceFile = "lesson12/js/temples.json";
+    fetch(sourceFile) 
+        .then((response) => {
+            return response.json();
+        })
+        .then((jsonObject) => {
+            console.log(jsonObject);
+            Object.entries(jsonObject).forEach(([key,temples]) => {
+                buildTempleCard(temples);
+            });
+        });
+});
+
+
+function buildTempleCard(temples) {
+    console.log(temples);
+    let card = document.createElement("section");
+    card.classList.add("temple")
+    card.innerHTML = `<h2>${temples.name}<h2>
+                      <img src="${temples.imageurl}" alt="${temples.name}">
+                      <p>Phone: ${temples.phone}<p>
+                      <p>Email: ${temples.email}<p>
+                      <p>Address: ${temples.address1} ${temples.city} ${temples.state} ${temples.zip}<p>
+                      <p>History: ${temples.history}<p>
+                      <h4>Schedule<h4>
+                      <p>Sessions: ${temples.sessions}<p>
+                      <p>Closures: ${temples.closure}<p>
+                      <p>Services: ${temples.services}<p>`;
+        document.querySelector(".cards").appendChild(card);
+}
+/* 
+.then(function (response) {
             return response.json();
         })
         .then(function (jsonObject) {
@@ -40,8 +69,8 @@ window.addEventListener('load', () => {
             card.appendChild(session);
             card.appendChild(close);
             card.appendChild(service);
+            
             document.querySelector('div.cards').appendChild(card);
 
             }
-    });
-});
+    }); */

@@ -2,7 +2,7 @@ $maincolor: #03B6D1;
 $secondarycolor: #FFD072;
 $skyblue: #D1EEF5;
 $lightgray: #EFF0F0;
-$buttonpurp:  rgb(145, 145, 253);
+$buttonpurp:  rgb(156, 156, 252);
 
 body {
     background-color: white;
@@ -124,6 +124,67 @@ body {
         }
     }// end contact summary
 /* end of home page code */
+
+/* start of reservation pg code*/
+#thanksMsg {
+    font-family: "Playfair Display";
+    font-size: 2em;
+    margin: 3em;
+    text-align: center;
+}
+form {
+    padding: 1em 6em;
+    margin: 2em;
+    border: 2px solid #CCC;
+    border-radius: 1em;
+    max-width: fit-content;
+    display: inline-block;
+    ul {
+        list-style: none;
+    }// end ul
+    h3 {
+        font-family: "Great Vibes";
+        font-size: 30px;
+        color: $maincolor;
+    }//end h4
+    label {
+        vertical-align: right;
+    }//end label
+    li {
+        margin: 20px;
+    }//end li
+    input {
+        font: 1em sans-serif;
+        /* Uniform text field size */
+        box-sizing: border-box;
+        border: 1px solid #999;
+        width: 150px;
+        padding: 5px;
+    }// end input
+    textarea {
+        width: 85%;
+        font: 1em sans-serif;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        vertical-align: top;
+    }// end text area
+    input:focus, textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #999;
+    }
+    button {
+        padding: 10px;
+        width: 10em;
+        margin: 5px;
+        background-color: $buttonpurp;
+        color: white;
+        font-family: "Playfair Display", serif;
+    } 
+    button:hover {
+        color:$buttonpurp;
+        background-color: $skyblue;
+    }// end button
+}// end form
 
 
 

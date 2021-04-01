@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const sourceFile = "lesson12/js/temples.json";
+    const sourceFile = "js/temples.json";
     fetch(sourceFile) 
         .then((response) => {
             return response.json();
@@ -17,18 +17,20 @@ function buildTempleCard(temples) {
     console.log(temples);
     let card = document.createElement("section");
     card.classList.add("temple")
-    card.innerHTML = `<h2>${temples.name}<h2>
-                      <img src="${temples.imageurl}" alt="${temples.name}">
-                      <p>Phone: ${temples.phone}<p>
-                      <p>Email: ${temples.email}<p>
-                      <p>Address: ${temples.address1} ${temples.city} ${temples.state} ${temples.zip}<p>
-                      <p>History: ${temples.history}<p>
-                      <h4>Schedule<h4>
-                      <p>Sessions: ${temples.sessions}<p>
-                      <p>Closures: ${temples.closure}<p>
-                      <p>Services: ${temples.services}<p>`;
-        document.querySelector(".cards").appendChild(card);
+    card.innerHTML = 
+        `<h2>${temples.name}<h2>
+        <img src="${temples.imageurl}" alt="${temples.name}">
+        <p>Phone: ${temples.phone}<p>
+        <p>Email: ${temples.email}<p>
+        <p>Address: ${temples.address1} ${temples.city} ${temples.state} ${temples.zip}<p>
+        <p>History: ${temples.history}<p>
+        <h4>Schedule<h4>
+        <p>Sessions: ${temples.sessions[0]}, ${temples.sessions[1]}, ${temples.sessions[2]}, ${temples.sessions[3]}, ${temples.sessions[5]}<p>
+        <p>Closures: ${temples.closure[0]}, ${temples.closure[1]}, ${temples.closure[2]}<p>
+        <p>Services: ${temples.services[0]}, ${temples.services[1]}<p>`;
+    document.querySelector(".cards").appendChild(card);
 }
+
 /* 
 .then(function (response) {
             return response.json();

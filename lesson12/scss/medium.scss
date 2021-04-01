@@ -41,5 +41,29 @@ $buttonpurp:  rgb(145, 145, 253);
         margin: .5em;
     }
 /* end universal code */
+/* start form code */
+form {
+  padding: 1em 2em;
+
+  .name, .contact, .duration, .room {
+    display: inline-block;
+    max-width: 100%;
+  } // sub li classes
+  li {
+    margin: 20px;
+   }
+  input {
+    max-width: 100%;
+  }
+  textarea {
+    width: 90%;
+    font: 1em sans-serif;
+  }
+  button {
+    width: 15em;
+  }
+} // end form 
+/* end form code */
+
     
 } /* end media query */

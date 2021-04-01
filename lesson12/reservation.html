@@ -33,33 +33,45 @@
         <form action="/lesson12/thanks.html" method="get">
         <ul>
             <h3>Personal Information</h3>
-            <li>
+            <li class="name">
                 <label for="first-name">First Name:<br>
                 <input type="text" id="first-name" name="first-name">
                 </label>
             </li>
-            <li>
+            <li class="name">
                 <label for="last-name">Last Name:<br>
                 <input type="text" id="last-name" name="last-name">
                 </label>
             </li>
-            <li>
+            <li class="state">
                 <label for="stateco">State/Country:<br>
                 <input type="text" id="stateco" name="state-country">
                 </label>
             </li>
-            <li>
+            <li class="contact">
                 <label for="phone">Phone Number:<br>
                 <input type="tel" id="phone" name="phone">
                 </label>
             </li>
-            <li>
+            <li class="contact">
                 <label for="email">E-mail:<br>
                 <input type="email" id="email" name="email">
                 </label>
             </li>
             <h3>Reservation Details</h3>
-            <li>
+           
+            </li>
+            <li class="duration">
+                <label for="inDate">Check-In Date:<br>
+                <input type="date" id="inDate" name="inDate">
+                </label>
+            </li>
+            <li class="duration">
+                <label for="outDate">Check-Out Date:<br>
+                <input type="date" id="outDate" name="outDate">
+                </label>
+            </li>
+            <li class="location">
                 <label for="location">Location:<br>
                 <select id="location" name="hotel-location">
                     <option value="rexburg">Rexburg, ID</option>
@@ -68,23 +80,12 @@
                     <option value="city_center">Provo City Center, UT</option>
                 </select>
                 </label>
-            </li>
-            <li>
-                <label for="inDate">Check-In Date:<br>
-                <input type="date" id="inDate" name="inDate">
-                </label>
-            </li>
-            <li>
-                <label for="outDate">Check-Out Date:<br>
-                <input type="date" id="outDate" name="outDate">
-                </label>
-            </li>
-            <li>
+            <li class="room">
                 <label for="guests">Number of Guests:<br>
                 <input type="number" id="guests" name="guests">
                 </label>
             </li>
-            <li>
+            <li class="room">
                 <label for="rooms">Room Preference:<br>
                 <input list="rooms" name="rooms">
                     <datalist id="rooms">
@@ -97,7 +98,7 @@
                     </datalist>
                 </label>
             </li>
-            <li>
+            <li class="message">
                 <label for="msg">Special Accommodations/Comments:<br>
                 <textarea id="msg" name="message" rows="10" cols="50"></textarea>
                 </label>

@@ -13,10 +13,10 @@
             "Clothing rental", "Distribution center"
         ],
         "closure":[
-            "April 3rd, 2021", "April 12, 2021", "July 24, 2021", "August 23, 2021 - September 13, 2021"
+            "April 3rd, 2021;", "April 12, 2021;", "July 24, 2021", "August 23, 2021 - September 13, 2021"
         ],
         "sessions":[
-            "6:00", "6:45", "7:30", "8:15", "9:00", "9:45", "10:30", "11:15", "12:00", "12:45", "13:30", "14:15", "15:00", "15:45", "16:15", "17:00", "17:45", "18:30", "19:15", "20:00", "20:45"
+            "6:00,", "6:45,", "7:30,", "8:15,", "9:00", "9:45", "10:30", "11:15", "12:00", "12:45", "13:30", "14:15", "15:00", "15:45", "16:15", "17:00", "17:45", "18:30", "19:15", "20:00", "20:45"
         ],
         "history": "The Rexburg Temple was dedicated on February 10th, 2008 by President Thomas S. Monson."
     },
@@ -30,13 +30,13 @@
         "email":"anch-off@churchofjesuschrist.org",
         "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/1200x675/anchorage-temple-lds-253274-wallpaper.jpg",
         "services":[
-            "None"
+            "None", ""
         ],
         "closure":[
-            "April 3, 2021", "June 8, 2021 - June 21, 2021", "October 2, 2021"
+            "April 3, 2021;", "June 8, 2021 - June 21, 2021;", "October 2, 2021"
         ],
         "sessions":[
-            "6:00", "8:00", "10:00", "12:00", "14:00", "16:00", "18:00"
+            "6:00,", "8:00,", "10:00,", "12:00,", "14:00", "16:00", "18:00"
         ],
         "history": "The Anchorage Temple was originally dedicated on January 9th, 1999. After renovations it was rededicated on February 8th, 2004. Both dedications were done by President Gordon B. Hinckley."
     },
@@ -53,10 +53,10 @@
             "Clothing rental", "Distribution center"
         ],
         "closure":[
-            "July 26, 2021 - August 9, 2021"
+            "July 26, 2021 - August 9, 2021", "", ""
         ],
         "sessions":[
-            "Closed due to COVID. Call to schedule for living ordinances."
+            "Closed due to COVID.", "Call to schedule for living ordinances.", "", "", ""
         ],
         "history": "The Manhattan Temple was dedicated on June 13th, 2004 by President Gordon B. Hinckley."
     },
@@ -73,10 +73,10 @@
             "Clothing rental", "Distribution center"
         ],
         "closure":[
-            "April 3, 2021", "June 21, 2021 - July 5, 2021", "July 24, 2021"
+            "April 3, 2021;", "June 21, 2021 - July 5, 2021;", "July 24, 2021"
         ],
         "sessions":[
-            "6:00", "6:45", "7:30", "8:15", "9:00", "9:45", "10:30", "11:15", "12:00", "12:45", "13:30", "14:15", "15:00", "15:45", "16:15", "17:00", "17:45", "18:30", "19:15", "20:00", "20:45"
+            "6:00,", "6:45,", "7:30,", "8:15,", "9:00", "9:45", "10:30", "11:15", "12:00", "12:45", "13:30", "14:15", "15:00", "15:45", "16:15", "17:00", "17:45", "18:30", "19:15", "20:00", "20:45"
         ],
         "history": "The Provo City Center Temple was dedicated on March 20th, 2016 by Elder Dallin H. Oaks."
     }

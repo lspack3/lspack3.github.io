@@ -65,5 +65,32 @@ form {
 } // end form 
 /* end form code */
 
+/* start temples page code */
+.cards {
+  .temple {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 150px;
+  h2 {
+    margin: auto;
+  }
+  img {
+    grid-column: 1;
+    max-width: 90%;
+  }
+  #weather {
+    grid-column: 1;
+  }
+  .tempInfo {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #weather {
+    margin-top: -1em;
+    margin-left: 1em;
+  }
+  }//end temple section
+}// end cards div
+
     
 } /* end media query */

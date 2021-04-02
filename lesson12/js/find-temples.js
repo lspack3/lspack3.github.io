@@ -19,7 +19,7 @@ function buildTempleCard(temples) {
     card.innerHTML = 
         `<h2>${temples.name}</h2>
         <img src="${temples.imageurl}" alt="${temples.name}">
-        <h4>Current Weather</h4>
+        <h4 id="weather">Current Weather</h4>
     <div class="tempInfo">
         <div class="tempContact">
         <h4>Contact</h4>

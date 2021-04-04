@@ -95,5 +95,22 @@ form {
 }// end cards div
 /* end temple page code */
 
+/* start contact us page code */
+.conpg {
+  display: grid;
+  margin:0 auto;
+  .conpg-msg {
+    padding: 10px;
+    text-align: center;
+  }
+  iframe {
+    justify-self: center;
+  }
+  .social-conpg {
+    margin: 1em;
+    text-align: center;
+  }//end social div
+}
+
     
 } /* end media query */

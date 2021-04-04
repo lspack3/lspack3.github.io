@@ -225,8 +225,53 @@ form {
         }
     }// end temple info div
 }// cards class
+/* end temple page code */
 
+/* start contact us page code */
+.conpg {
+    display: grid;
+    margin: 0 auto;
 
+    .conpg-msg {
+        color: $maincolor;
+        font-size: 40px;
+        font-family: "Great Vibes";
+        text-align: center;
+        margin-bottom: .5em;
+    }//end h3 
+    ul {
+        list-style: none;
+        font-size: 20px;
+
+        li {
+            padding: 10px;
+        }
+        iframe {
+            max-width: 90%;
+            margin: 10px;
+        }//end embedded map
+    }// end ul
+    #conpg {
+        margin: 0 auto;
+        padding: 1em;
+
+        h3 {
+            margin: 0 auto;
+            text-align: center;
+        }
+        button {
+            margin: 0 auto;
+        }
+    }//end form
+    .social-conpg {
+        margin: 3em;
+        text-decoration: none;
+        a {
+            padding: 5px;
+        }//end a
+    }//end social div
+}//end contact main
+/* end contact us page code */
 
 
 

@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/slideshow.css"> 
+    <link rel="stylesheet" href="scss/small.css">
+    <link rel="stylesheet" href="scss/medium.css">
+    <link rel="stylesheet" href="scss/large.css">
+    <script src="js/menu.js"></script>
+    <link rel="shortcut icon" href="favicon2.ico">
 
     <title>Contact Us | The Temple Inn & Suites</title>
 </head>
 <body>
     <header>
+        <img id="logo" src="images/innlogo.png" alt="company logo">
         <nav>
             <ul id="navigation">
                 <li><a href="#" class="ham">&#9776;</a></li>
@@ -21,9 +28,44 @@
                 <li><a class="active" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <h1>The Temple Inn &#38; Suites</h1>  
     </header>
-    <main>
-
+    <main class="conpg">
+        <h3 class="conpg-msg">We would love to hear from you!</h3>
+        <ul>
+            <li><strong>Phone:</strong> 301-222-4433</li>
+            <li><strong>Address:</strong> 4800 Montgomery Ln #300, Bethesda, MD 20814</li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3101.4048370285186!2d-77.09772048487538!3d38.98325594948405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!3m2!1d38.9832518!2d-77.0955318!5e0!3m2!1sen!2sus!4v1617506776971!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </ul>
+        <form id="conpg" action="/my-handling-form-page" method="post">
+            <ul>
+            <h3>Send us a message.</h3>
+            <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail">
+            </li>
+            <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+            <button type="submit">Send</button>
+            </li>
+            </ul>  
+        </form>
+        <div class="social-conpg"> 
+            <h3>Find us on Facebook and Instagram too!</h3>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="https://cdn.glitch.com/1f4428d9-0578-414b-b679-c4dcf4b150a5%2Ffacebook.png?v=1580243906362" alt="Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="https://cdn.glitch.com/1f4428d9-0578-414b-b679-c4dcf4b150a5%2Finstagram.png?v=1580243909867" alt="Instagram Icon">
+            </a>
+          </div>
     </main>
 
     <footer>

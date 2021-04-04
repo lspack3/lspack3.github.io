@@ -44,6 +44,8 @@ $buttonpurp:  rgb(145, 145, 253);
 /* start form code */
 form {
   padding: 1em 2em;
+  display: grid;
+  margin: 0 auto;
 
   .name, .contact, .duration, .room {
     display: inline-block;
@@ -60,7 +62,7 @@ form {
     font: 1em sans-serif;
   }
   button {
-    width: 15em;
+    width: 6em;
   }
 } // end form 
 /* end form code */
@@ -91,6 +93,7 @@ form {
   }
   }//end temple section
 }// end cards div
+/* end temple page code */
 
     
 } /* end media query */

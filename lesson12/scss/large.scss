@@ -48,6 +48,17 @@ $buttonpurp:  rgb(145, 145, 253);
     }//end temple status div
 /* end home page code */
 
+/* start reservation page code */
+form {
+    display: grid;
+    margin: 0 auto;
+
+    .name, .contact, .duration, .room {
+        display: inline-block;
+        max-width: 100%;
+      } // sub li classes
+}// end form
+
 /* start temple page code */
 .cards {
     .temple {
@@ -87,9 +98,8 @@ $buttonpurp:  rgb(145, 145, 253);
         grid-column: 2;
         grid-row: 2;
     }
-
-
 } // end cards div
+/* end temple page code */
 
 
     

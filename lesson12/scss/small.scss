@@ -174,11 +174,15 @@ form {
     }
     button {
         padding: 10px;
-        width: 10em;
+        width: 6em;
         margin: 5px;
         background-color: $buttonpurp;
         color: white;
-        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        border-radius: 50%;
+        font-family: "Great Vibes";
+        border: 3px solid black;
+        box-shadow: 5px 5px 8px #888888;
     } 
     button:hover {
         color:$buttonpurp;

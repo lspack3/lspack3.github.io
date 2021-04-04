@@ -227,6 +227,56 @@ form {
 }// cards class
 /* end temple page code */
 
+/* start services page code */
+.servpg {
+    display: grid;
+    margin: 0 auto;
+    padding: 15px;
+    h4 {
+        line-height: 1.5em;
+        font-size: 20px;
+    }//end h4
+    .subButtons {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        button {
+            padding: 10px;
+            width: 6em;
+            margin: 5px;
+            background-color: $buttonpurp;
+            color: white;
+            font-size: 30px;
+            border-radius: 50%;
+            font-family: "Great Vibes";
+            border: 3px solid black;
+            box-shadow: 5px 5px 8px #888888;
+        } 
+        button:hover {
+            color:$buttonpurp;
+            background-color: $skyblue;
+        }
+    } // end button 
+    .servlist {
+        background-color: $lightgray;
+        padding: 10px;
+        margin-top: 2em;
+
+        h2 {
+            font-family: "Great Vibes";
+            font-size: 35px;
+            color: $maincolor;
+            margin-left: .5em;
+        }//end h2
+        ul {
+            line-height: 1.5em;
+        }// end ul
+    }//end ul list div
+}// end services main 
+/* end services page code */
+
+
 /* start contact us page code */
 .conpg {
     display: grid;

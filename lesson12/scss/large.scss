@@ -126,5 +126,31 @@ form {
 }//end contact us main
 /* end contact us page code */
 
+/* start reception page code */
+.partypg {
+
+    h4 {
+        margin: 1em 3em;
+    }//end h4
+    p {
+        margin: 1em 2em;
+        text-align: left;
+    }//end p
+    section {
+        padding: 5px;
+        margin: 0 2em;
+    }//end section
+    .themes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .menus {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
     
 } /* end media query */

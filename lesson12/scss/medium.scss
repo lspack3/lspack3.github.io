@@ -119,6 +119,32 @@ form {
     text-align: center;
   }//end social div
 }
+/* end contact us page code*/
+
+/* start reception page code */
+.partypg {
+  h4 {
+    margin: 1em 5em;
+  }//end h4
+  p {
+    margin: 1em 5em;
+    text-align: left;
+  }//end p
+  section {
+    margin: 0 2em;
+  }
+  .themes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+
+    img {
+      max-width: 80%;
+    }//end img
+  }//end themes div
+
+}
+/* end reception page code */
 
     
 } /* end media query */

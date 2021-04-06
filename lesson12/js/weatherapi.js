@@ -11,7 +11,7 @@ fetch(rexburg)
     console.table(jsObject);
     console.log(jsObject);  // for testing
     document.getElementById('rexCurrent').textContent = jsObject.weather[0].description;
-    document.getElementById('rexTemp').textContent = jsObject.main.temp + " *F";
+    document.getElementById('rexTemp').innerHTML = jsObject.main.temp + " &deg;F";
   });
   fetch(anchorage)
   .then((response) => response.json())
@@ -19,7 +19,7 @@ fetch(rexburg)
     console.table(jsObject);
     console.log(jsObject);  // for testing
     document.getElementById('anchCurrent').textContent = jsObject.weather[0].description;
-    document.getElementById('anchTemp').textContent = jsObject.main.temp + " *F";
+    document.getElementById('anchTemp').innerHTML = jsObject.main.temp + " &deg;F";
   });
   fetch(manhattan)
   .then((response) => response.json())
@@ -27,7 +27,7 @@ fetch(rexburg)
     console.table(jsObject);
     console.log(jsObject);  // for testing
     document.getElementById('manCurrent').textContent = jsObject.weather[0].description;
-    document.getElementById('manTemp').textContent = jsObject.main.temp + " *F";
+    document.getElementById('manTemp').innerHTML = jsObject.main.temp + " &deg;F";
   });
   fetch(provo)
   .then((response) => response.json())
@@ -35,7 +35,7 @@ fetch(rexburg)
     console.table(jsObject);
     console.log(jsObject);  // for testing
     document.getElementById('prCurrent').textContent = jsObject.weather[0].description;
-    document.getElementById('prTemp').textContent = jsObject.main.temp + " *F";
+    document.getElementById('prTemp').innerHTML = jsObject.main.temp + " &deg;F";
   });
 
 

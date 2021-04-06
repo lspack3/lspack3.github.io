@@ -1,6 +1,8 @@
 {
 "temples":[
     {
+        "tempID": "rexTemp",
+        "weatherID": "rexCurrent",
         "name":"Rexburg Idaho Temple",
         "phone":"208-656-0880",
         "address1":"750 S 2nd E",
@@ -21,6 +23,8 @@
         "history": "The Rexburg Temple was dedicated on February 10th, 2008 by President Thomas S. Monson."
     },
     {
+        "tempID": "anchTemp",
+        "weatherID": "anchCurrent",
         "name":"Anchorage Alaska Temple",
         "phone":"907-348-7890",
         "address1":"13161 Brayton Dr.",
@@ -41,6 +45,8 @@
         "history": "The Anchorage Temple was originally dedicated on January 9th, 1999. After renovations it was rededicated on February 8th, 2004. Both dedications were done by President Gordon B. Hinckley."
     },
     {
+        "tempID": "manTemp",
+        "weatherID": "manCurrent",
         "name":"Manhattan New York Temple",
         "phone":"917-441-8220",
         "address1":"125 Columbus Ave, Fourth Floor",
@@ -61,6 +67,8 @@
         "history": "The Manhattan Temple was dedicated on June 13th, 2004 by President Gordon B. Hinckley."
     },
     {
+        "tempID": "prTemp",
+        "weatherID": "prCurrent",
         "name":"Provo City Center Temple",
         "phone":"801-343-2700",
         "address1":"50 S University Ave.",

@@ -207,6 +207,14 @@ form {
         font-size: 20px;
         text-decoration: underline;
     }//end h4
+    .weather {
+  
+        span {
+            padding: 5px;
+            margin-bottom: 1em;
+            font-weight: 700;
+        }//end span  
+    }
     h2{
         font-family: "Great Vibes";
         font-size: 40px;
@@ -219,6 +227,7 @@ form {
         padding: 5px;
         gap: 10px;
         background-color: $skyblue;
+        margin-top: 1.5em;
 
         .tempContact {
             padding-left: 5px;

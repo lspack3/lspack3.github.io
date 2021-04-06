@@ -72,7 +72,7 @@ form {
   .temple {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 150px;
+  grid-template-rows: 100px 1fr 100px;
   h2 {
     margin: auto;
   }
@@ -80,16 +80,15 @@ form {
     grid-column: 1;
     max-width: 90%;
   }
-  #weather {
+  .weather {
     grid-column: 1;
+    margin-top: -1em;
+    text-align: center;
   }
   .tempInfo {
     grid-column: 2;
     grid-row: 2;
-  }
-  #weather {
-    margin-top: -1em;
-    margin-left: 1em;
+    margin-top: 0;
   }
   }//end temple section
 }// end cards div

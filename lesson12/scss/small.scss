@@ -388,8 +388,47 @@ form {
 }
 /* end reception page code */
 
+/* start missionary page code */
+.misspg {
+    margin: 1em;
 
-
+    h2 {
+        font-family: "Great Vibes";
+        font-size: 40px;
+        color: $maincolor;
+    }//end h2
+    .offeredrms {
+        display: grid;
+        margin: 0 auto;
+        background-color: $skyblue;
+        padding: 10px;
+        
+        h3 {
+            text-decoration: underline;
+            margin-bottom: .5em;
+        }//end h3
+        p {
+            line-height: 1.5em;
+            padding: 5px;
+        }//end p
+        img {
+            max-width: 80%;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid gray;
+            box-shadow: 3px 3px 5px 8px #888888;
+            margin: auto;
+            margin-bottom: 2em;
+        }//end img
+    }//end div
+    form {
+        padding: 10px;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 1em;
+    }//end form
+}//end miss main 
+/* end missionary page code */
 
 /* ham nav code */
     nav {
